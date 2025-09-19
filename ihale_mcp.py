@@ -454,13 +454,13 @@ async def search_ilan_ads(
     max_result_count: Annotated[int, "Maximum number of results to return (1-50)"] = 12,
     search_in_title: Annotated[bool, "Search specifically in ad titles (uses 't' parameter)"] = False,
     search_in_content: Annotated[bool, "Search specifically in ad content (uses 'c' parameter)"] = False,
-    city_plate: Annotated[Optional[int], "Filter by city plate number (1-81, e.g., 6=ANKARA, 34=İSTANBUL, 35=İZMİR)"] = None,
+    city_plate: Annotated[Optional[int], "Filter by city plate number as INTEGER (1-81, e.g., 6=ANKARA, 34=İSTANBUL, 35=İZMİR)"] = None,
     category: Annotated[Optional[Literal["Emlak", "Vasıta", "Kamu-Akademik Personel", "İhale Duyuruları", "İflas Hukuku Davaları", "Tebligat ve Duyurular", "Endüstriyel Ürünler", "Muhtelif", "Elektronik"]], "Filter by category"] = None,
     ad_type_filter: Annotated[Optional[Literal["İCRA", "İHALE", "TEBLİGAT", "PERSONEL", "UYAP_E_SATIS"]], "Filter by ad type (İcra=2, İhale=3, Tebligat=4, Personel=5, UYAP_E_SATIS=UYAP e-satış)"] = None,
     publish_date_min: Annotated[Optional[str], "Minimum publish date (DD.MM.YYYY format, e.g., '01.09.2025')"] = None,
     publish_date_max: Annotated[Optional[str], "Maximum publish date (DD.MM.YYYY format, e.g., '19.09.2025')"] = None,
-    price_min: Annotated[Optional[int], "Minimum price filter (for ads with prices)"] = None,
-    price_max: Annotated[Optional[int], "Maximum price filter (for ads with prices)"] = None,
+    price_min: Annotated[Optional[int], "Minimum price filter as INTEGER (for ads with prices)"] = None,
+    price_max: Annotated[Optional[int], "Maximum price filter as INTEGER (for ads with prices)"] = None,
     current_page: Annotated[int, "Current page number (1-based, affects both skip_count and currentPage parameter)"] = 1
 ) -> Dict[str, Any]:
     """
