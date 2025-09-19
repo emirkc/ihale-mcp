@@ -455,7 +455,7 @@ async def search_ilan_ads(
     search_in_title: Annotated[bool, "Search specifically in ad titles (uses 't' parameter)"] = False,
     search_in_content: Annotated[bool, "Search specifically in ad content (uses 'c' parameter)"] = False,
     city_plate: Annotated[Optional[int], "Filter by city plate number (1-81, e.g., 6=ANKARA, 34=İSTANBUL, 35=İZMİR)"] = None,
-    category: Annotated[Optional[str], "Filter by category (e.g., 'Emlak', 'İhale Duyuruları')"] = None,
+    category: Annotated[Optional[Literal["Emlak", "Vasıta", "Kamu-Akademik Personel", "İhale Duyuruları", "İflas Hukuku Davaları", "Tebligat ve Duyurular", "Endüstriyel Ürünler", "Muhtelif", "Elektronik"]], "Filter by category"] = None,
     ad_type_filter: Annotated[Optional[Literal["İCRA", "İHALE", "TEBLİGAT", "PERSONEL"]], "Filter by ad type (İcra=2, İhale=3, Tebligat=4, Personel=5)"] = None,
     ad_source_filter: Annotated[Optional[Literal["UYAP", "BIK"]], "Filter by ad source (UYAP=E-SATIŞ icra/mahkeme satışları, BIK=Basın İlan Kurumu)"] = None,
     publish_date_min: Annotated[Optional[str], "Minimum publish date (DD.MM.YYYY format, e.g., '01.09.2025')"] = None,
