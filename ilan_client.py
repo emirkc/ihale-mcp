@@ -3,11 +3,15 @@
 İlan.gov.tr API client for Turkish government announcements and notifications
 """
 
-import httpx
+import logging
 import ssl
-from typing import Dict, Any, Optional
 from io import BytesIO
+from typing import Any, Dict, Optional
+
+import httpx
 from markitdown import MarkItDown
+
+logger = logging.getLogger(__name__)
 
 
 class IlanClient:
@@ -40,6 +44,8 @@ class IlanClient:
             'x-requested-with': 'XMLHttpRequest'
         }
 
+        self._client: Optional[httpx.AsyncClient] = None
+
     def _create_ssl_context(self) -> ssl.SSLContext:
         """Create SSL context that supports standard protocols"""
         ssl_context = ssl.create_default_context()
@@ -47,23 +53,33 @@ class IlanClient:
         ssl_context.verify_mode = ssl.CERT_NONE
         return ssl_context
 
+    def _get_client(self) -> httpx.AsyncClient:
+        """Return shared HTTP client for ilan.gov.tr requests."""
+        if self._client is None:
+            self._client = httpx.AsyncClient(
+                timeout=30.0,
+                verify=self._create_ssl_context(),
+                http2=False,
+                limits=httpx.Limits(max_keepalive_connections=5, max_connections=10),
+            )
+        return self._client
+
+    async def aclose(self) -> None:
+        """Close the shared HTTP client."""
+        if self._client is not None:
+            await self._client.aclose()
+            self._client = None
+
     async def _make_request(self, endpoint: str, params: dict) -> dict:
         """Make an API request to ilan.gov.tr"""
-        ssl_context = self._create_ssl_context()
-
-        async with httpx.AsyncClient(
-            timeout=30.0,
-            verify=ssl_context,
-            http2=False,
-            limits=httpx.Limits(max_keepalive_connections=5, max_connections=10)
-        ) as client:
-            response = await client.post(
-                f"{self.base_url}{endpoint}",
-                json=params,
-                headers=self.headers
-            )
-            response.raise_for_status()
-            return response.json()
+        client = self._get_client()
+        response = await client.post(
+            f"{self.base_url}{endpoint}",
+            json=params,
+            headers=self.headers,
+        )
+        response.raise_for_status()
+        return response.json()
 
     async def search_ads(
         self,
@@ -243,23 +259,16 @@ class IlanClient:
     ) -> Dict[str, Any]:
         """Get detailed information for a specific advertisement"""
 
-        ssl_context = self._create_ssl_context()
-
         try:
             # Make GET request with query parameter
-            async with httpx.AsyncClient(
-                timeout=30.0,
-                verify=ssl_context,
-                http2=False,
-                limits=httpx.Limits(max_keepalive_connections=5, max_connections=10)
-            ) as client:
-                response = await client.get(
-                    f"{self.base_url}{self.detail_endpoint}",
-                    params={"id": ad_id},
-                    headers=self.headers
-                )
-                response.raise_for_status()
-                response_data = response.json()
+            client = self._get_client()
+            response = await client.get(
+                f"{self.base_url}{self.detail_endpoint}",
+                params={"id": ad_id},
+                headers=self.headers
+            )
+            response.raise_for_status()
+            response_data = response.json()
 
             # Check if successful
             if not response_data.get("success", False):
@@ -291,7 +300,7 @@ class IlanClient:
                     conversion_result = markitdown.convert_stream(html_bytes, file_extension=".html")
                     markdown_content = conversion_result.text_content if conversion_result else None
                 except Exception as e:
-                    print(f"Warning: Failed to convert HTML to markdown: {e}")
+                    logger.warning("Failed to convert ilan.gov.tr HTML to markdown: %s", e)
                     markdown_content = None
 
             # Format categories
