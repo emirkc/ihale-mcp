@@ -5,10 +5,9 @@
 
 import httpx
 import ssl
-from typing import Dict, Any, Optional, List
+from typing import Dict, Any, Optional
 from io import BytesIO
 from markitdown import MarkItDown
-from ihale_models import IlanSearchResponse, IlanAd, IlanAdDetail
 
 
 class IlanClient:

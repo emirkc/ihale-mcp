@@ -6,15 +6,11 @@ Provides access to the Turkish government procurement portal EKAP v2
 
 from datetime import datetime, timedelta
 from typing import List, Optional, Literal, Annotated, Dict, Any
-from pydantic import BaseModel, Field
 from fastmcp import FastMCP
 from ihale_client import EKAPClient
 from ilan_client import IlanClient
 from ihale_models import (
-    TENDER_TYPES, TENDER_STATUSES, TENDER_METHODS,
-    PROVINCES, PROPOSAL_TYPES, ANNOUNCEMENT_TYPES,
-    PLATE_TO_API_ID, PLATE_TO_ILAN_CITY_ID, ILAN_AD_TYPES,
-    TenderDocument, TenderInfo, TenderSearchResponse
+    PLATE_TO_API_ID, PLATE_TO_ILAN_CITY_ID, ILAN_AD_TYPES
 )
 
 # Initialize the MCP server and client
@@ -128,8 +124,9 @@ async def search_tenders(
         if not api_province_ids:
             api_province_ids = None
     
-    # Use the client to search tenders
-    result = await ekap_client.search_tenders(
+    # Use the client to search tenders with error handling
+    try:
+        result = await ekap_client.search_tenders(
         search_text=search_text,
         ikn_year=ikn_year,
         ikn_number=ikn_number,
@@ -482,7 +479,8 @@ async def search_ilan_ads(
         max_result_count = 1
 
     # Convert plate number to city ID if provided
-    if city_plate is not None and city_id is None:
+    city_id = None
+    if city_plate is not None:
         city_id = PLATE_TO_ILAN_CITY_ID.get(city_plate)
         if city_id is None:
             return {

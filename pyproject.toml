@@ -26,4 +26,5 @@ py-modules = ["ihale_mcp", "ihale_client", "ihale_models", "ilan_client", "main"
 [dependency-groups]
 dev = [
     "build>=1.3.0",
+    "ruff>=0.13.1",
 ]
