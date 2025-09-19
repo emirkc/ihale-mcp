@@ -124,9 +124,8 @@ async def search_tenders(
         if not api_province_ids:
             api_province_ids = None
     
-    # Use the client to search tenders with error handling
-    try:
-        result = await ekap_client.search_tenders(
+    # Use the client to search tenders
+    result = await ekap_client.search_tenders(
         search_text=search_text,
         ikn_year=ikn_year,
         ikn_number=ikn_number,
