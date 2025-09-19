@@ -13,7 +13,7 @@ from ilan_client import IlanClient
 from ihale_models import (
     TENDER_TYPES, TENDER_STATUSES, TENDER_METHODS,
     PROVINCES, PROPOSAL_TYPES, ANNOUNCEMENT_TYPES,
-    PLATE_TO_API_ID, PLATE_TO_ILAN_CITY_ID, ILAN_AD_TYPES, ILAN_AD_SOURCES,
+    PLATE_TO_API_ID, PLATE_TO_ILAN_CITY_ID, ILAN_AD_TYPES,
     TenderDocument, TenderInfo, TenderSearchResponse
 )
 
@@ -456,8 +456,7 @@ async def search_ilan_ads(
     search_in_content: Annotated[bool, "Search specifically in ad content (uses 'c' parameter)"] = False,
     city_plate: Annotated[Optional[int], "Filter by city plate number (1-81, e.g., 6=ANKARA, 34=İSTANBUL, 35=İZMİR)"] = None,
     category: Annotated[Optional[Literal["Emlak", "Vasıta", "Kamu-Akademik Personel", "İhale Duyuruları", "İflas Hukuku Davaları", "Tebligat ve Duyurular", "Endüstriyel Ürünler", "Muhtelif", "Elektronik"]], "Filter by category"] = None,
-    ad_type_filter: Annotated[Optional[Literal["İCRA", "İHALE", "TEBLİGAT", "PERSONEL"]], "Filter by ad type (İcra=2, İhale=3, Tebligat=4, Personel=5)"] = None,
-    ad_source_filter: Annotated[Optional[Literal["UYAP", "BIK"]], "Filter by ad source (UYAP=E-SATIŞ icra/mahkeme satışları, BIK=Basın İlan Kurumu)"] = None,
+    ad_type_filter: Annotated[Optional[Literal["İCRA", "İHALE", "TEBLİGAT", "PERSONEL", "UYAP_E_SATIS"]], "Filter by ad type (İcra=2, İhale=3, Tebligat=4, Personel=5, UYAP_E_SATIS=UYAP e-satış)"] = None,
     publish_date_min: Annotated[Optional[str], "Minimum publish date (DD.MM.YYYY format, e.g., '01.09.2025')"] = None,
     publish_date_max: Annotated[Optional[str], "Maximum publish date (DD.MM.YYYY format, e.g., '19.09.2025')"] = None,
     price_min: Annotated[Optional[int], "Minimum price filter (for ads with prices)"] = None,
@@ -491,25 +490,21 @@ async def search_ilan_ads(
                 "valid_plates": "1=ADANA, 6=ANKARA, 34=İSTANBUL, 35=İZMİR, etc."
             }
 
-    # Convert ad type filter to ID
+    # Convert ad type filter to ID and handle UYAP_E_SATIS
     ad_type_id = None
-    if ad_type_filter:
-        ad_type_id = ILAN_AD_TYPES.get(ad_type_filter.upper())
-        if ad_type_id is None:
-            return {
-                "error": f"Invalid ad type: {ad_type_filter}",
-                "valid_types": "İCRA, İHALE, TEBLİGAT, PERSONEL"
-            }
-
-    # Convert ad source filter
     ad_source = None
-    if ad_source_filter:
-        ad_source = ILAN_AD_SOURCES.get(ad_source_filter.upper())
-        if ad_source is None:
-            return {
-                "error": f"Invalid ad source: {ad_source_filter}",
-                "valid_sources": "UYAP (E-SATIŞ), BIK (Basın İlan Kurumu)"
-            }
+
+    if ad_type_filter:
+        if ad_type_filter == "UYAP_E_SATIS":
+            # UYAP E-SATIŞ is handled via ad_source parameter
+            ad_source = "UYAP"
+        else:
+            ad_type_id = ILAN_AD_TYPES.get(ad_type_filter.upper())
+            if ad_type_id is None:
+                return {
+                    "error": f"Invalid ad type: {ad_type_filter}",
+                    "valid_types": "İCRA, İHALE, TEBLİGAT, PERSONEL, UYAP_E_SATIS"
+                }
 
     # Use the client to search ilan.gov.tr ads
     result = await ilan_client.search_ads(
