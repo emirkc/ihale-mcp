@@ -7,7 +7,7 @@ name = "ihale-mcp"
 version = "0.1.0"
 description = "MCP Server for Turkish Government Tenders (İhale) and Announcements"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.11"
 dependencies = [
     "fastmcp>=2.10.6",
     "httpx>=0.28.1",
