@@ -1027,7 +1027,7 @@ class EKAPClient:
         status_text: Optional[str] = None,
         date_start: Optional[str] = None,
         date_end: Optional[str] = None,
-        province_plate: Optional[int] = None,
+        province_plate: Optional[int | str] = None,
         province_name: Optional[str] = None,
         scope_id: Optional[int] = None,
         scope_text: Optional[str] = None,
@@ -1111,7 +1111,14 @@ class EKAPClient:
             if plate is not None:
                 province_plate = plate
         if province_plate is not None:
-            params["ilID"] = province_plate
+            # Convert string to integer if needed
+            if isinstance(province_plate, str):
+                try:
+                    province_plate = int(province_plate)
+                except ValueError:
+                    province_plate = None
+            if province_plate is not None:
+                params["ilID"] = province_plate
         # Map scope text if provided and id not set
         if scope_id is None and scope_text:
             sc_lower = scope_text.strip().casefold()

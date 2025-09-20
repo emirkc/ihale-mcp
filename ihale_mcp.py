@@ -64,7 +64,7 @@ async def search_tenders(
     cerceve_anlasmasi_mi: Annotated[Optional[bool], "Filter for framework agreements"] = None,
     personel_calistirilmasina_dayali_mi: Annotated[Optional[bool], "Filter for personnel employment based tenders"] = None,
     # List filters  
-    provinces: Annotated[List[int], "Province plate numbers to filter by (1-81, e.g., 6=Ankara, 34=İstanbul, 35=İzmir)"] = None,
+    provinces: Annotated[List[int | str], "Province plate numbers to filter by (1-81, e.g., 6=Ankara, 34=İstanbul, 35=İzmir). Accepts integers or strings."] = None,
     tender_statuses: Annotated[List[int], "Tender status IDs to filter by"] = None,
     tender_methods: Annotated[List[int], "Tender method IDs to filter by"] = None,
     tender_sub_methods: Annotated[List[int], "Tender sub-method IDs to filter by"] = None,
@@ -117,6 +117,12 @@ async def search_tenders(
     if provinces:
         api_province_ids = []
         for plate_number in provinces:
+            # Convert string to integer if needed
+            if isinstance(plate_number, str):
+                try:
+                    plate_number = int(plate_number)
+                except ValueError:
+                    continue  # Skip invalid values
             api_id = PLATE_TO_API_ID.get(plate_number)
             if api_id:
                 api_province_ids.append(api_id)
@@ -364,7 +370,7 @@ async def search_direct_procurements(
     status_text: Annotated[Optional[str], "Status text (Durum), e.g., 'Bids Under Evaluation (Teklifler Değerlendiriliyor)'"] = None,
     date_start: Annotated[Optional[str], "Offer due start (Teklif tarihi başlangıcı) YYYY-MM-DD"] = None,
     date_end: Annotated[Optional[str], "Offer due end (Teklif tarihi bitişi) YYYY-MM-DD"] = None,
-    province_plate: Annotated[Optional[int], "Authority province plate (İl plaka kodu) 1-81"] = None,
+    province_plate: Annotated[Optional[int | str], "Authority province plate (İl plaka kodu) 1-81. Accepts integer or string."] = None,
     province_name: Annotated[Optional[str], "Authority province name (İl adı), e.g., 'Antalya'"] = None,
     scope_id: Annotated[Optional[int], "Scope ID (Doğrudan Temin Kapsamı): 101/102/103"] = None,
     scope_text: Annotated[Optional[str], "Scope text (Kapsam), e.g., 'Within Law 4734 (4734 Kapsamında)'"] = None,
@@ -450,13 +456,13 @@ async def search_ilan_ads(
     max_result_count: Annotated[int, "Maximum number of results to return (1-50)"] = 12,
     search_in_title: Annotated[bool, "Search specifically in ad titles (uses 't' parameter)"] = False,
     search_in_content: Annotated[bool, "Search specifically in ad content (uses 'c' parameter)"] = False,
-    city_plate: Annotated[Optional[int], "Filter by city plate number as INTEGER (1-81, e.g., 6=ANKARA, 34=İSTANBUL, 35=İZMİR)"] = None,
+    city_plate: Annotated[Optional[int | str], "Filter by city plate number (1-81, e.g., 6=ANKARA, 34=İSTANBUL, 35=İZMİR). Accepts integer or string."] = None,
     category: Annotated[Optional[Literal["Emlak", "Vasıta", "Kamu-Akademik Personel", "İhale Duyuruları", "İflas Hukuku Davaları", "Tebligat ve Duyurular", "Endüstriyel Ürünler", "Muhtelif", "Elektronik"]], "Filter by category"] = None,
     ad_type_filter: Annotated[Optional[Literal["İCRA", "İHALE", "TEBLİGAT", "PERSONEL", "UYAP_E_SATIS"]], "Filter by ad type (İcra=2, İhale=3, Tebligat=4, Personel=5, UYAP_E_SATIS=UYAP e-satış)"] = None,
     publish_date_min: Annotated[Optional[str], "Minimum publish date (DD.MM.YYYY format, e.g., '01.09.2025')"] = None,
     publish_date_max: Annotated[Optional[str], "Maximum publish date (DD.MM.YYYY format, e.g., '19.09.2025')"] = None,
-    price_min: Annotated[Optional[int], "Minimum price filter as INTEGER (for ads with prices)"] = None,
-    price_max: Annotated[Optional[int], "Maximum price filter as INTEGER (for ads with prices)"] = None,
+    price_min: Annotated[Optional[int | str], "Minimum price filter (for ads with prices). Accepts integer or string."] = None,
+    price_max: Annotated[Optional[int | str], "Maximum price filter (for ads with prices). Accepts integer or string."] = None,
     current_page: Annotated[int, "Current page number (1-based, affects both skip_count and currentPage parameter)"] = 1
 ) -> Dict[str, Any]:
     """
@@ -480,6 +486,15 @@ async def search_ilan_ads(
     # Convert plate number to city ID if provided
     city_id = None
     if city_plate is not None:
+        # Convert string to integer if needed
+        if isinstance(city_plate, str):
+            try:
+                city_plate = int(city_plate)
+            except ValueError:
+                return {
+                    "error": f"Invalid plate number: {city_plate}. Must be a number between 1-81",
+                    "valid_plates": "1=ADANA, 6=ANKARA, 34=İSTANBUL, 35=İZMİR, etc."
+                }
         city_id = PLATE_TO_ILAN_CITY_ID.get(city_plate)
         if city_id is None:
             return {
@@ -502,6 +517,23 @@ async def search_ilan_ads(
                     "error": f"Invalid ad type: {ad_type_filter}",
                     "valid_types": "İCRA, İHALE, TEBLİGAT, PERSONEL, UYAP_E_SATIS"
                 }
+
+    # Convert price parameters to integers if needed
+    if price_min is not None and isinstance(price_min, str):
+        try:
+            price_min = int(price_min)
+        except ValueError:
+            return {
+                "error": f"Invalid minimum price: {price_min}. Must be a valid number",
+            }
+
+    if price_max is not None and isinstance(price_max, str):
+        try:
+            price_max = int(price_max)
+        except ValueError:
+            return {
+                "error": f"Invalid maximum price: {price_max}. Must be a valid number",
+            }
 
     # Use the client to search ilan.gov.tr ads
     result = await ilan_client.search_ads(
