@@ -2,6 +2,26 @@
 
 Bu proje, Türkiye'deki kamu ihalelerine (`ekap.kik.gov.tr`) erişimi kolaylaştıran bir [FastMCP](https://gofastmcp.com/) sunucusu oluşturur. Bu sayede, EKAP v2 portalından ihale arama, ihale detaylarını getirme ve ihale duyurularını Markdown formatında alma işlemleri, Model Context Protocol (MCP) destekleyen LLM (Büyük Dil Modeli) uygulamaları (örneğin Claude Desktop veya [5ire](https://5ire.app)) ve diğer istemciler tarafından araç (tool) olarak kullanılabilir hale gelir.
 
+---
+
+## 🚀 5 Dakikada Başla (Remote MCP)
+
+**✅ Kurulum Gerektirmez! Hemen Kullan!**
+
+🔗 **Remote MCP Adresi:** `https://ihalemcp.fastmcp.app/mcp`
+
+### Claude Desktop ile Kullanım
+
+1. Claude Desktop'ı açın
+2. **Settings → Connectors → Add Custom Connector**
+3. Bilgileri girin:
+   - **Name:** `İhale MCP`
+   - **URL:** `https://ihalemcp.fastmcp.app/mcp`
+4. **Add** butonuna tıklayın
+5. Hemen kullanmaya başlayın! 🎉
+
+---
+
 🎯 **Temel Özellikler**
 
 * EKAP v2 portalına programatik erişim için standart bir MCP arayüzü.
