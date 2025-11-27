@@ -3,25 +3,20 @@
 EKAP v2 API client for Turkish government tender/procurement data - FIXED VERSION
 """
 
-import asyncio
-import logging
+import httpx
 import ssl
+from typing import Dict, Any, Optional, List, Literal
 from datetime import datetime
 from io import BytesIO
-from typing import Any, Dict, List, Literal, Optional
-
-import httpx
 from markitdown import MarkItDown
 from ihale_models import (
-    DIRECT_PROCUREMENT_SCOPE_ALIASES,
-    DIRECT_PROCUREMENT_SCOPES,
-    DIRECT_PROCUREMENT_STATUSES,
-    DIRECT_PROCUREMENT_STATUS_ALIASES,
     DIRECT_PROCUREMENT_TYPES,
+    DIRECT_PROCUREMENT_STATUSES,
+    DIRECT_PROCUREMENT_SCOPES,
     NAME_TO_PLATE,
+    DIRECT_PROCUREMENT_STATUS_ALIASES,
+    DIRECT_PROCUREMENT_SCOPE_ALIASES,
 )
-
-logger = logging.getLogger(__name__)
 
 class EKAPClient:
     """Client for EKAP v2 API"""
@@ -37,9 +32,6 @@ class EKAPClient:
         # Direct Procurement (Doğrudan Temin) legacy endpoint (GET)
         self.direct_procurement_url = "https://ekap.kik.gov.tr/EKAP/Ortak/YeniIhaleAramaData.ashx"
         
-        self._client: Optional[httpx.AsyncClient] = None
-        self._legacy_client: Optional[httpx.AsyncClient] = None
-
         # Common headers for all requests
         self.headers = {
             'Accept': 'application/json',
@@ -63,55 +55,32 @@ class EKAPClient:
         ssl_context.verify_mode = ssl.CERT_NONE
         return ssl_context
     
-    def _get_client(self) -> httpx.AsyncClient:
-        """Return shared HTTP client for primary EKAP endpoints."""
-        if self._client is None:
-            self._client = httpx.AsyncClient(
-                timeout=30.0,
-                verify=self._create_ssl_context(),
-                http2=False,
-                limits=httpx.Limits(max_keepalive_connections=5, max_connections=10),
-            )
-        return self._client
-
-    def _get_legacy_client(self) -> httpx.AsyncClient:
-        """Return shared HTTP client for legacy EKAP endpoints."""
-        if self._legacy_client is None:
-            self._legacy_client = httpx.AsyncClient(
-                timeout=30.0,
-                verify=self._create_ssl_context(),
-                http2=False,
-                limits=httpx.Limits(max_keepalive_connections=5, max_connections=10),
-            )
-        return self._legacy_client
-
-    async def aclose(self) -> None:
-        """Close any active HTTP clients."""
-        if self._client is not None:
-            await self._client.aclose()
-            self._client = None
-        if self._legacy_client is not None:
-            await self._legacy_client.aclose()
-            self._legacy_client = None
-
     async def _make_request(self, endpoint: str, params: dict) -> dict:
         """Make an API request to EKAP v2"""
-        client = self._get_client()
-        response = await client.post(
-            f"{self.base_url}{endpoint}",
-            json=params,
-            headers=self.headers,
-        )
-        response.raise_for_status()
-        return response.json()
+        ssl_context = self._create_ssl_context()
+        
+        async with httpx.AsyncClient(
+            timeout=30.0,
+            verify=ssl_context,
+            http2=False,
+            limits=httpx.Limits(max_keepalive_connections=5, max_connections=10)
+        ) as client:
+            response = await client.post(
+                f"{self.base_url}{endpoint}",
+                json=params,
+                headers=self.headers
+            )
+            response.raise_for_status()
+            return response.json()
     
     def _format_date_for_api(self, date_str: Optional[str]) -> Optional[str]:
-        """Convert YYYY-MM-DD to DD.MM.YYYY format expected by API"""
+        """Validate and return date in YYYY-MM-DD format expected by API"""
         if not date_str:
             return None
         try:
-            dt = datetime.strptime(date_str, "%Y-%m-%d")
-            return dt.strftime("%d.%m.%Y")
+            # Validate the date format
+            datetime.strptime(date_str, "%Y-%m-%d")
+            return date_str  # API expects YYYY-MM-DD format
         except ValueError:
             return None
 
@@ -126,6 +95,7 @@ class EKAPClient:
 
         cookies: can be a cookie header string or a dict suitable for httpx.
         """
+        ssl_context = self._create_ssl_context()
         req_headers = {
             'Accept': 'application/json, text/plain, */*',
             'Accept-Encoding': 'identity',
@@ -138,33 +108,27 @@ class EKAPClient:
         }
         if headers:
             req_headers.update(headers)
-        client = self._get_legacy_client()
-        # If cookies is a string, set Cookie header; if dict, pass to client
-        request_headers = dict(req_headers)
-        httpx_cookies = None
-        if isinstance(cookies, str) and cookies.strip():
-            request_headers['Cookie'] = cookies
-        elif isinstance(cookies, dict):
-            httpx_cookies = cookies
-        # First attempt
-        response = await client.get(
-            url,
-            params=params,
-            headers=request_headers,
-            cookies=httpx_cookies,
-            follow_redirects=False,
-        )
-        # If redirected to error page, try warming up to obtain cookies and retry once
-        if response.status_code == 302 and '/EKAP/error_page.html' in response.headers.get('location', '') and not cookies:
-            await self._warmup_legacy_ekap(client)
-            response = await client.get(
-                url,
-                params=params,
-                headers=req_headers,
-                follow_redirects=False,
-            )
-        response.raise_for_status()
-        return response.json()
+        async with httpx.AsyncClient(
+            timeout=30.0,
+            verify=ssl_context,
+            http2=False,
+            limits=httpx.Limits(max_keepalive_connections=5, max_connections=10)
+        ) as client:
+            # If cookies is a string, set Cookie header; if dict, pass to client
+            request_headers = dict(req_headers)
+            httpx_cookies = None
+            if isinstance(cookies, str) and cookies.strip():
+                request_headers['Cookie'] = cookies
+            elif isinstance(cookies, dict):
+                httpx_cookies = cookies
+            # First attempt
+            response = await client.get(url, params=params, headers=request_headers, cookies=httpx_cookies, follow_redirects=False)
+            # If redirected to error page, try warming up to obtain cookies and retry once
+            if response.status_code == 302 and '/EKAP/error_page.html' in response.headers.get('location', '') and not cookies:
+                await self._warmup_legacy_ekap(client)
+                response = await client.get(url, params=params, headers=req_headers, follow_redirects=False)
+            response.raise_for_status()
+            return response.json()
 
     async def _warmup_legacy_ekap(self, client: httpx.AsyncClient) -> None:
         """Warm-up request to EKAP legacy page to obtain session cookies."""
@@ -415,31 +379,25 @@ class EKAPClient:
             # Parse and format the response
             tenders = response_data.get("list", [])
             total_count = response_data.get("totalCount", 0)
-
-            # Prefetch document URLs concurrently for tenders with documents
-            doc_tasks = {
-                tender.get("id"): self.get_tender_document_url(tender.get("id"))
-                for tender in tenders
-                if tender.get("id") and tender.get("dokumanSayisi", 0) > 0
-            }
-            doc_results: Dict[int, Optional[str]] = {}
-            if doc_tasks:
-                responses = await asyncio.gather(
-                    *doc_tasks.values(),
-                    return_exceptions=True,
-                )
-                for tender_id, response in zip(doc_tasks.keys(), responses):
-                    if isinstance(response, Exception):
-                        logger.warning("Failed to fetch document URL for tender %s: %s", tender_id, response)
-                        continue
-                    if response.get("success"):
-                        doc_results[tender_id] = response.get("document_url")
-
-            # Format each tender for better readability
+            
+            # Province filtering is now handled by the API directly
+            
+            # Format each tender for better readability  
             formatted_tenders = []
             for tender in tenders:
                 tender_id = tender.get("id")
-
+                
+                # Get document URL for this tender
+                document_url = None
+                if tender_id and tender.get("dokumanSayisi", 0) > 0:
+                    try:
+                        doc_result = await self.get_tender_document_url(tender_id)
+                        if doc_result.get("success"):
+                            document_url = doc_result.get("document_url")
+                    except Exception:
+                        # If document URL fails, continue without it
+                        pass
+                
                 formatted_tender = {
                     "id": tender_id,
                     "name": tender.get("ihaleAdi"),
@@ -458,7 +416,7 @@ class EKAPClient:
                     "tender_datetime": tender.get("ihaleTarihSaat"),
                     "document_count": tender.get("dokumanSayisi", 0),
                     "has_announcement": tender.get("ilanVarMi", False),
-                    "document_url": doc_results.get(tender_id)
+                    "document_url": document_url
                 }
                 formatted_tenders.append(formatted_tender)
             
@@ -728,7 +686,7 @@ class EKAPClient:
                         result = markitdown.convert_stream(html_bytes, file_extension=".html")
                         markdown_content = result.text_content if result else None
                     except Exception as e:
-                        logger.warning("Failed to convert announcement HTML to markdown: %s", e)
+                        print(f"Warning: Failed to convert HTML to markdown: {e}")
                         markdown_content = None
                 
                 results.append({
@@ -886,7 +844,7 @@ class EKAPClient:
                         result = markitdown.convert_stream(html_bytes, file_extension=".html")
                         markdown_content = result.text_content if result else None
                     except Exception as e:
-                        logger.warning("Failed to convert tender detail HTML to markdown: %s", e)
+                        print(f"Warning: Failed to convert HTML to markdown in tender details: {e}")
                         markdown_content = None
                 
                 announcements.append({
@@ -1027,7 +985,7 @@ class EKAPClient:
         status_text: Optional[str] = None,
         date_start: Optional[str] = None,
         date_end: Optional[str] = None,
-        province_plate: Optional[int | str] = None,
+        province_plate: Optional[int] = None,
         province_name: Optional[str] = None,
         scope_id: Optional[int] = None,
         scope_text: Optional[str] = None,
@@ -1086,7 +1044,7 @@ class EKAPClient:
             params["eihale"] = "true" if e_price_offer else "false"
         # Map status text if provided and id not set
         if status_id is None and status_text:
-            st_lower = status_text.strip().casefold()
+            st_lower = status_text.strip().lower()
             # direct numeric string support
             if st_lower.isdigit():
                 try:
@@ -1095,7 +1053,7 @@ class EKAPClient:
                     status_id = None
             if status_id is None:
                 # build lowercase map
-                _status_by_text = {v.casefold(): k for k, v in DIRECT_PROCUREMENT_STATUSES.items()}
+                _status_by_text = {v.lower(): k for k, v in DIRECT_PROCUREMENT_STATUSES.items()}
                 status_id = _status_by_text.get(st_lower)
             if status_id is None:
                 status_id = DIRECT_PROCUREMENT_STATUS_ALIASES.get(st_lower)
@@ -1111,24 +1069,17 @@ class EKAPClient:
             if plate is not None:
                 province_plate = plate
         if province_plate is not None:
-            # Convert string to integer if needed
-            if isinstance(province_plate, str):
-                try:
-                    province_plate = int(province_plate)
-                except ValueError:
-                    province_plate = None
-            if province_plate is not None:
-                params["ilID"] = province_plate
+            params["ilID"] = province_plate
         # Map scope text if provided and id not set
         if scope_id is None and scope_text:
-            sc_lower = scope_text.strip().casefold()
+            sc_lower = scope_text.strip().lower()
             if sc_lower.isdigit():
                 try:
                     scope_id = int(sc_lower)
                 except Exception:
                     scope_id = None
             if scope_id is None:
-                _scope_by_text = {v.casefold(): k for k, v in DIRECT_PROCUREMENT_SCOPES.items()}
+                _scope_by_text = {v.lower(): k for k, v in DIRECT_PROCUREMENT_SCOPES.items()}
                 scope_id = _scope_by_text.get(sc_lower)
             if scope_id is None:
                 scope_id = DIRECT_PROCUREMENT_SCOPE_ALIASES.get(sc_lower)
