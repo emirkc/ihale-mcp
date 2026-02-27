@@ -131,9 +131,11 @@ class IlanClient:
         if price_max is not None:
             keys["prmax"] = [str(price_max)]
 
-        # Page handling
+        # Page handling - calculate skipCount from currentPage if not explicitly set
         if current_page > 1:
             keys["currentPage"] = [current_page]
+            if skip_count == 0:
+                skip_count = (current_page - 1) * max_result_count
 
         # Build API request payload
         api_params = {
