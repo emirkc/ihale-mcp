@@ -1,0 +1,96 @@
+# Negative Signals
+# Lines starting with # are comments. Each non-empty, non-comment line is a signal.
+# Format: SIGNAL_PHRASE | SEVERITY
+# Severity: HARD = auto-reject, SOFT = score penalty (-5 per signal, max -15)
+
+# --- Hard reject: Kent/dış mekan mobilyası ---
+kent mobilyası | HARD
+kent donatı | HARD
+kent donatı elemanları | HARD
+park mobilyası | HARD
+bahçe mobilyası | HARD
+dış mekan mobilya | HARD
+outdoor mobilya | HARD
+piknik masası | HARD
+piknik seti | HARD
+kamelya | HARD
+çocuk oyun grubu | HARD
+çocuk oyun alanı | HARD
+oyun parkı | HARD
+oyun ekipmanları | HARD
+çöp kovası | HARD
+ferforje | HARD
+bank oturma elemanı | HARD
+park bankı | HARD
+peyzaj düzenleme | HARD
+çim biçme | HARD
+fidanlık | HARD
+
+# --- Hard reject: Completely unrelated sectors ---
+asfalt | HARD
+köprü yapımı | HARD
+yol yapım | HARD
+kanalizasyon | HARD
+su arıtma | HARD
+trafo | HARD
+
+# --- Soft reject: IT/teknoloji (bazen mobilya ile karışık gelebilir) ---
+bilgisayar alımı | SOFT
+dizüstü bilgisayar | SOFT
+masaüstü bilgisayar | SOFT
+yazıcı alımı | SOFT
+toner alımı | SOFT
+sunucu alımı | SOFT
+network ekipman | SOFT
+tablet alımı | SOFT
+
+# --- Soft reject: Medikal ---
+tıbbi cihaz | SOFT
+tıbbi sarf | SOFT
+laboratuvar malzeme | SOFT
+röntgen | SOFT
+ameliyathane | SOFT
+ilaç alımı | SOFT
+medikal gaz | SOFT
+hasta yatağı | SOFT
+
+# --- Soft reject: Temizlik/sarf ---
+temizlik malzemesi | SOFT
+dezenfektan | SOFT
+temizlik hizmeti | SOFT
+çamaşırhane | SOFT
+
+# --- Soft reject: İnşaat/yapım ---
+inşaat malzemesi | SOFT
+çimento | SOFT
+beton | SOFT
+demir donatı | SOFT
+boya malzeme | SOFT
+alçıpan | SOFT
+elektrik malzeme | SOFT
+sıhhi tesisat | SOFT
+hırdavat | SOFT
+
+# --- Soft reject: Gıda/yemek ---
+yemek hizmeti | SOFT
+gıda alımı | SOFT
+kantin | SOFT
+tabldot | SOFT
+kırtasiye | SOFT
+beyaz eşya | SOFT
+endüstriyel mutfak | SOFT
+cerrahi el aletleri | SOFT
+bilişim malzemesi | SOFT
+profil demir | SOFT
+
+# --- Soft reject: Tekstil (ev tekstili, farklı segment) ---
+perde alımı | SOFT
+halı alımı | SOFT
+yatak alımı | SOFT
+nevresim | SOFT
+battaniye | SOFT
+
+# --- Soft reject: Eğitim mobilyası (farklı segment) ---
+okul sırası | SOFT
+öğrenci masası | SOFT
+okul mobilyası | SOFT

@@ -1,0 +1,560 @@
+{
+  "tenders": [
+    {
+      "id": "01d8cb41dfc922f22e996b34baecf7ae1ed151b9bfcabb9401ac84a3b4a0d5df",
+      "name": "Payas Stem Yapay Zeka Merkezi Ofis Mobilyaları",
+      "ikn": "2026/251282",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "PAYAS BELEDİYE BAŞKANLIĞI - DESTEK HİZMETLERİ MÜDÜRLÜĞÜ",
+      "province": "HATAY",
+      "tender_datetime": "10.03.2026 10:00",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "5b950b26e2b65f8abf126d2770ce3c9e9dc0a3333720195325a639f9346090b5",
+      "name": "KOLTUK DÖŞEME ATÖLYESİNE 5 KALEM TEKLİ MİSAFİR KOLTUĞU MALZEMESİ SATIN ALIMI",
+      "ikn": "2026/233643",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "ESKİŞEHİR 1 NOLU AÇIK CEZA İNFAZ KURUMU İŞYURDU MÜDÜRLÜĞÜ",
+      "province": "ESKİŞEHİR",
+      "tender_datetime": "10.03.2026 10:00",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "5ffa1627695f6d9edb73fee58772a3d0629ebc572712d31d12b46c1bc2553db4",
+      "name": "2026 Yılı Muhtelif Nalbur, Elektrik, Boya ve Mdf Malzemeleri",
+      "ikn": "2026/110422",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "İSTANBUL BÜYÜKŞEHİR BELEDİYE BAŞKANLIĞI - İŞLETMELER ŞUBE MÜDÜRLÜĞÜ",
+      "province": "İSTANBUL",
+      "tender_datetime": "10.03.2026 10:00",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "f4aaa7f8ab6b7f97b3622a9462fbfc8e2aef8f7e0e5d21f2db80789c48ecb479",
+      "name": "7 KISIM MAL VE MALZEME ALIM İŞİ",
+      "ikn": "2026/157374",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "KIRIKKALE BELEDİYESİ Park ve Bahçeler Müdürlüğü",
+      "province": "KIRIKKALE",
+      "tender_datetime": "10.03.2026 10:00",
+      "document_count": 1,
+      "has_announcement": true,
+      "document_url": "https://ekap.kik.gov.tr/EKAP/Ortak/VatandasIlanGoruntuleme.aspx?ddac=true&aramaDownload=true&ihaleId=b128f84575c110f3c32e2b2d2d243b8a2b9d58f8951f4a99f7310a370950501e&wots=false&Iszylnm=false"
+    },
+    {
+      "id": "bf49bb98808a42ba626e582ba18f6d671076a69bb6e97a292d771f3650ebd7d1",
+      "name": "Belediyemiz Birimlerinde Kullanılmak Üzere Temizlik Malzemeleri Alımı İşi",
+      "ikn": "2026/303160",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "MANİSA BÜYÜKŞEHİR BELEDİYESİ DESTEK HİZMETLERİ DAİRESİ BAŞKANLIĞI",
+      "province": "MANİSA",
+      "tender_datetime": "10.03.2026 10:30",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "cd326d4be0ef4ba9d61cdfcaf75a93fd68d5d53444d7443b0f5ceaa0528c4087",
+      "name": "Temizlik Malzemeleri Alımı",
+      "ikn": "2026/327651",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "ERBAA BELEDİYE BAŞKANLIĞI - DESTEK HİZMETLERİ MÜDÜRLÜĞÜ",
+      "province": "TOKAT",
+      "tender_datetime": "11.03.2026 10:00",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "9a6595ba82e5d5a63326b747dcc6713cd4324fdf297642cc2ab358ca8416dbda",
+      "name": "173 KALEM TEMİZLİK MALZEMESİ ALIMI",
+      "ikn": "2026/129008",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "ELAZIĞ İL SAĞLIK MÜDÜRLÜĞÜ",
+      "province": "ELAZIĞ",
+      "tender_datetime": "12.03.2026 10:00",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "cb94a77140f41544d07ce86b981a99bccb049fa90bc3eaff409311764f04d34e",
+      "name": "Bakım Onarım Çalışmalarında Kullanılmak Üzere Marangoz Atölyesi Malzeme Alımı İşi",
+      "ikn": "2026/128129",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "KENT ESTETİĞİ DAİRESİ BAŞKANLIĞI",
+      "province": "ANKARA",
+      "tender_datetime": "12.03.2026 10:30",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "9fa76b286f09b5ca7ab208cef04b7797fc999c3a897a90f90b99f6595bfa4ca2",
+      "name": "KAMELYA, PİKNİK MASASI, SIRTLIKLI VE SIRTLIKSIZ BANK ALIMI İŞİ",
+      "ikn": "2026/285804",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "PARK VE BAHÇELER MÜDÜRLÜĞÜ",
+      "province": "HATAY",
+      "tender_datetime": "12.03.2026 11:00",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "6bbe4795769fef2d8c6aaa771d98495c3d41b6f93e3ba63b871cfc6a39aa0da3",
+      "name": "Yemek Masası ve Sıra Tablası Alımı",
+      "ikn": "2026/246349",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "NİĞDE AÇIK CEZA İNFAZ  KUR.İŞ YUR.MÜD. DİĞER ÖZEL BÜTÇELİ KURULUŞLAR CEZA İNFAZ KURUMLARI İLE TUTUKEVLERİ İŞ YURTLARI KURUMU",
+      "province": "NİĞDE",
+      "tender_datetime": "12.03.2026 15:00",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "3dee0a093f04a8e1488df791855d2d351573b8cf34bf224830a81f08a43fb558",
+      "name": "30 ADET BİLGİSAYAR VE GRAFİK İŞLEMCİ SUNUCUSU VE BİLEŞENLERİ",
+      "ikn": "2026/264882",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "İDARİ VE MALİ İŞLER DAİRE BAŞKANLIĞI",
+      "province": "ESKİŞEHİR",
+      "tender_datetime": "16.03.2026 10:00",
+      "document_count": 3,
+      "has_announcement": true,
+      "document_url": "https://ekap.kik.gov.tr/EKAP/Ortak/VatandasIlanGoruntuleme.aspx?ddac=true&aramaDownload=true&ihaleId=2c08d72ca48e2f4ca12272fac9edba11c14106557daafee5e92cfd388abe43fa&wots=false&Iszylnm=false"
+    },
+    {
+      "id": "ded50ba3bf8e9cad7a99e7bac6adacba3c22b20d58838f8f1a58c667aa5e6e47",
+      "name": "Kdz Ereğli Belediyesi Temizlik İşleri Müdürlüğü Muhtelif Malzeme , Mevsimlik, Çiçek , Yazılım ve Depolama Cihazı",
+      "ikn": "2026/311004",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "EREĞLİ BELEDİYESİ Temizlik İşleri Müdürlüğü",
+      "province": "ZONGULDAK",
+      "tender_datetime": "16.03.2026 10:00",
+      "document_count": 1,
+      "has_announcement": true,
+      "document_url": "https://ekap.kik.gov.tr/EKAP/Ortak/VatandasIlanGoruntuleme.aspx?ddac=true&aramaDownload=true&ihaleId=69cf887fbb3cdbd1fc4903974dbe8d640b74734435dd0cfb214102141514ea9d&wots=false&Iszylnm=false"
+    },
+    {
+      "id": "7f0697e1c469a43a76f8a59e11626d2166203bcd06fbf1601b94a7a28bc1f027",
+      "name": "39 KALEM SAĞLIKLI HAYAT MERKEZLERİ İÇİN CİHAZ VE MALZEME  ALIMI",
+      "ikn": "2026/345756",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "KOCAELİ İL SAĞLIK MÜDÜRLÜĞÜ",
+      "province": "KOCAELİ",
+      "tender_datetime": "18.03.2026 10:00",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "14635c44d4817dcb22a99e9382d9a45fe3a26306f549546485f717ed6ff717d7",
+      "name": "GENÇLİK MERKEZİ MOBİLYA  (MONTAJ DAHİL)",
+      "ikn": "2026/338946",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "ONİKİŞUBAT BELEDİYE BAŞKANLIĞI - DESTEK HİZMETLERİ MÜDÜRLÜĞÜ",
+      "province": "KAHRAMANMARAŞ",
+      "tender_datetime": "19.03.2026 10:00",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "e08ea7233526c7e4c4b3e7278dbc5cfa7c19d36e7f2a0d704bd1a5cb1020b303",
+      "name": "2026 Yılı Kent Mobilyaları, Çevre Düzenleme ve Oyun Grubu Malzemeleri Alımı",
+      "ikn": "2026/314436",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "ALİAĞA BELEDİYESİ Park ve Bahçeler Müdürlüğü",
+      "province": "İZMİR",
+      "tender_datetime": "23.03.2026 10:00",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "d7f2966d49aa4758a4c723273f08ff8a4b06a9645f1420c0b02ab323ac30a75a",
+      "name": "VAN İLİ MURADİYE İLÇESİ KÜLTÜR MERKEZİ TEFRİŞAT MALZEMESİ ALIM İŞİ",
+      "ikn": "2026/356152",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "VAN YATIRIM İZLEME VE KOORDİNASYON BAŞKANLIĞI",
+      "province": "VAN",
+      "tender_datetime": "23.03.2026 10:30",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "937fc9bc0e432a38942e756afa3f9196814ae121f9a0d2d34624a091a31102a0",
+      "name": "2026 yılı belediyemiz müdürlükleri ihtiyacı olan temizlik malzemeleri alımı",
+      "ikn": "2026/326037",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "AKDENİZ BELEDİYESİ DESTEK HİZMETLERİ MÜDÜRLÜĞÜ",
+      "province": "MERSİN",
+      "tender_datetime": "23.03.2026 14:00",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "15bf1919fb7cc54a9177e37b50f071066b23f9108aa979a9a62731e7b2a51f72",
+      "name": "KENT DONATI ELAMANLARI",
+      "ikn": "2026/279162",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "ALAPLI BELEDİYESİ ALAPLI BELEDİYE BAŞKANLIĞI",
+      "province": "ZONGULDAK",
+      "tender_datetime": "24.03.2026 10:00",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "34bef2531b06093b8d727bd2525ca5df148d455fbc6215f400b035cab60fe11a",
+      "name": "BELEDİYEMİZ SOSYAL TESİSLERİ (GÜMÜŞ RESTORAN, BUHARA RESTORAN)  ,AŞEVLERİ (AKÇABURGAZ, KIRAÇ VE YILDIZ CAMİİ) MOBİLYA ALIMI İŞİ",
+      "ikn": "2026/373823",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "ESENYURT BELEDİYESİ DESTEK HİZMETLERİ MÜDÜRLÜĞÜ",
+      "province": "İSTANBUL",
+      "tender_datetime": "24.03.2026 10:30",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "c6b3d03fed79e920959f219f27d10af92abcb1ae1f19c22e4e17919c496aa439",
+      "name": "İNŞAAT MALZEMELERİ ALIMI",
+      "ikn": "2026/316020",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "KEPEZ BELEDİYESİ PARK VE BAHÇELER MÜDÜRLÜĞÜ",
+      "province": "ANTALYA",
+      "tender_datetime": "24.03.2026 11:00",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "927f5caa5ac25f2959f2ffdd3b53d05b50ad056b68797293912b6ffd483c2454",
+      "name": "Piknik Masası, Oturma Bankı, Emprenyelenmiş Bank Latası, Çöp Kovası ve Kamelya Alınması",
+      "ikn": "2026/350423",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "ÇİĞLİ BELEDİYESİ Park ve Bahçeler Müdürlüğü",
+      "province": "İZMİR",
+      "tender_datetime": "24.03.2026 11:00",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "df0232da9bbe5592bdbe8fd404f4fce783ffe539cb3cc35fb2792e87b0441dcf",
+      "name": "MUHTELİF TÜR VE MİKTARLARDA BEYAZ EŞYA, FIRIN, ÇAY MAKİNESİ, ELEKTRİKLİ SÜPÜRGE, HALI, SEDİR VE PROFİL DEMİR ALIMI",
+      "ikn": "2026/277068",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "K.MARAŞ BÜYÜKŞEHİR BELEDİYESİ Kadın Aile ve Sosyal Hizmetler Dairesi Başkanlığı",
+      "province": "KAHRAMANMARAŞ",
+      "tender_datetime": "24.03.2026 14:00",
+      "document_count": 1,
+      "has_announcement": true,
+      "document_url": "https://ekap.kik.gov.tr/EKAP/Ortak/VatandasIlanGoruntuleme.aspx?ddac=true&aramaDownload=true&ihaleId=0ed489f7246463baec84bc74eb5b2de18f267dc8a8ac9ecd517e73fb5c417d00&wots=false&Iszylnm=false"
+    },
+    {
+      "id": "b255007140057ab4066f4eabb0ed89f3a2462fe0438c5aee611905e1735fc105",
+      "name": "ENDÜSTRİYEL MUTFAK MALZEMELERİ VE MOBİLYA ALIMI",
+      "ikn": "2026/372482",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "BELEDİYE BAŞKAN YARDIMCILIĞI 4",
+      "province": "AFYONKARAHİSAR",
+      "tender_datetime": "26.03.2026 10:30",
+      "document_count": 1,
+      "has_announcement": true,
+      "document_url": "https://ekap.kik.gov.tr/EKAP/Ortak/VatandasIlanGoruntuleme.aspx?ddac=true&aramaDownload=true&ihaleId=9514cfedad22f8aa794b112d3643406250ffa07e568747c43a5b584bdacf7341&wots=false&Iszylnm=false"
+    },
+    {
+      "id": "8c715daf932bd593a6fbb4bc0291850578f2e60d5a03cae074726f8a51f85878",
+      "name": "FIRAT PROJESİ KAPSAMINDA BİLİŞİM MALZEMESİ ALIMI",
+      "ikn": "2026/407842",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "ORMAN GENEL MÜDÜRLÜĞÜ - DESTEK HİZMETLERİ DAİRESİ BAŞKANLIĞI",
+      "province": "ANKARA",
+      "tender_datetime": "26.03.2026 14:00",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "d2ea8106b4d7e569f9a7ead0387007f85d6bf7bf852ba989c651afb776c427a3",
+      "name": "MUHTELİF PARK MALZEMELERİ MAL ALIMI İŞİ",
+      "ikn": "2026/397346",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "DESTEK HİZMETLERİ MÜDÜRLÜĞÜ",
+      "province": "AĞRI",
+      "tender_datetime": "30.03.2026 10:00",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "cc7078501068c3d72e0cdcf7cf333a00a641b556fbd0cf47a0dea6cbd70421d6",
+      "name": "2026 Yılı İlçemiz Genelinde Park ve Yeşil Alanlarda Kullanılmak Üzere Oyun Ekipmanları, Fitness Aletleri ve Kent Mobilyaları Alım İşi",
+      "ikn": "2026/319808",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "GÖLBAŞI BELEDİYESİ PARK VE BAHÇELER MÜDÜRLÜĞÜ",
+      "province": "ANKARA",
+      "tender_datetime": "06.04.2026 10:30",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "c38a3ef38d7aa63a034d093ee863919bd0979ed1dc18614669a4d9e69a16f38c",
+      "name": "7 KISIM PARK VE BAHÇE MALZEMELERİ ALIMI",
+      "ikn": "2026/361980",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "DEVELİ BELEDİYE BAŞKANLIĞI",
+      "province": "KAYSERİ",
+      "tender_datetime": "08.04.2026 14:00",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    }
+  ],
+  "total_count": 27,
+  "returned_count": 27,
+  "search_params": {
+    "search_text": "mobilya",
+    "ikn_year": null,
+    "ikn_number": null,
+    "tender_types": [
+      1
+    ],
+    "date_range": {
+      "tender_start": "2026-03-08",
+      "tender_end": null,
+      "announcement_start": null,
+      "announcement_end": null
+    }
+  }
+}

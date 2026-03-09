@@ -1,0 +1,201 @@
+{
+  "version": "1.0.0",
+  "description": "OKAS (Ortak Kamu Alımları Sınıflandırması) code mapping for office furniture product categories. Used for OKAS-assisted tender discovery and scoring boost. Codes follow CPV (Common Procurement Vocabulary) structure used in Turkish public procurement.",
+  "primary_codes": {
+    "39100000": {
+      "description_tr": "Mobilyalar",
+      "description_en": "Furniture",
+      "relevance": "parent",
+      "score_boost": 5,
+      "note": "Üst kategori - alt kodlarla birlikte kullanılmalı"
+    },
+    "39120000": {
+      "description_tr": "Masalar, dolaplar, büro masaları ve kitaplıklar",
+      "description_en": "Tables, cupboards, desk and bookcases",
+      "relevance": "high",
+      "score_boost": 15
+    },
+    "39121000": {
+      "description_tr": "Büro masaları ve masalar",
+      "description_en": "Desks and tables",
+      "relevance": "core",
+      "score_boost": 20,
+      "product_match": ["masa", "çalışma masası", "büro masası", "toplantı masası"]
+    },
+    "39121100": {
+      "description_tr": "Büro masaları",
+      "description_en": "Desks",
+      "relevance": "core",
+      "score_boost": 20,
+      "product_match": ["büro masası", "yönetici masası", "personel masası"]
+    },
+    "39121200": {
+      "description_tr": "Masalar",
+      "description_en": "Tables",
+      "relevance": "high",
+      "score_boost": 15,
+      "product_match": ["toplantı masası", "masa"]
+    },
+    "39122000": {
+      "description_tr": "Dolaplar ve kitaplıklar",
+      "description_en": "Cupboards and bookcases",
+      "relevance": "core",
+      "score_boost": 20,
+      "product_match": ["dolap", "dosya dolabı", "kitaplık"]
+    },
+    "39122100": {
+      "description_tr": "Dolaplar",
+      "description_en": "Cupboards",
+      "relevance": "core",
+      "score_boost": 20,
+      "product_match": ["dolap", "dosya dolabı", "evrak dolabı", "arşiv dolabı"]
+    },
+    "39122200": {
+      "description_tr": "Kitaplıklar",
+      "description_en": "Bookcases",
+      "relevance": "high",
+      "score_boost": 15,
+      "product_match": ["kitaplık", "raf"]
+    },
+    "39130000": {
+      "description_tr": "Ofis mobilyaları",
+      "description_en": "Office furniture",
+      "relevance": "core",
+      "score_boost": 20,
+      "product_match": ["ofis mobilyası", "büro mobilyası"]
+    },
+    "39131000": {
+      "description_tr": "Ofis rafları",
+      "description_en": "Office shelving",
+      "relevance": "high",
+      "score_boost": 12
+    },
+    "39131100": {
+      "description_tr": "Arşiv rafları",
+      "description_en": "Archive shelving",
+      "relevance": "medium",
+      "score_boost": 8
+    },
+    "39132000": {
+      "description_tr": "Dosyalama sistemleri",
+      "description_en": "Filing systems",
+      "relevance": "medium",
+      "score_boost": 8,
+      "product_match": ["keson", "dosya dolabı"]
+    },
+    "39132100": {
+      "description_tr": "Dosya dolapları",
+      "description_en": "Filing cabinets",
+      "relevance": "core",
+      "score_boost": 18,
+      "product_match": ["dosya dolabı", "keson", "evrak dolabı"]
+    },
+    "39134000": {
+      "description_tr": "Bilgisayar mobilyaları",
+      "description_en": "Computer furniture",
+      "relevance": "high",
+      "score_boost": 12,
+      "product_match": ["bilgisayar masası"]
+    },
+    "39141000": {
+      "description_tr": "Mutfak mobilya ve ekipmanları",
+      "description_en": "Kitchen furniture and equipment",
+      "relevance": "low",
+      "score_boost": 3,
+      "note": "Sadece ofis mutfağı/çay ocağı dolapları için geçerli"
+    },
+    "39150000": {
+      "description_tr": "Çeşitli mobilya ve ekipmanlar",
+      "description_en": "Miscellaneous furniture and equipment",
+      "relevance": "medium",
+      "score_boost": 8
+    },
+    "39151000": {
+      "description_tr": "Çeşitli mobilyalar",
+      "description_en": "Miscellaneous furniture",
+      "relevance": "medium",
+      "score_boost": 8
+    },
+    "39153000": {
+      "description_tr": "Konferans odası mobilyaları",
+      "description_en": "Conference room furniture",
+      "relevance": "core",
+      "score_boost": 18,
+      "product_match": ["toplantı masası", "toplantı sandalyesi", "konferans mobilya"]
+    },
+    "39155000": {
+      "description_tr": "Kütüphane mobilyaları",
+      "description_en": "Library furniture",
+      "relevance": "medium",
+      "score_boost": 8
+    },
+    "39156000": {
+      "description_tr": "Resepsiyon mobilyaları",
+      "description_en": "Reception furniture",
+      "relevance": "core",
+      "score_boost": 18,
+      "product_match": ["banko", "danışma ünitesi", "resepsiyon"]
+    }
+  },
+  "secondary_codes": {
+    "39110000": {
+      "description_tr": "Oturma grupları, sandalyeler ve ilgili parçalar",
+      "description_en": "Seats, chairs and related products",
+      "relevance": "core",
+      "score_boost": 18,
+      "product_match": ["koltuk", "sandalye", "oturma grubu"]
+    },
+    "39111000": {
+      "description_tr": "Oturma grupları",
+      "description_en": "Seats",
+      "relevance": "core",
+      "score_boost": 18,
+      "product_match": ["koltuk", "bekleme koltuğu", "oturma grubu"]
+    },
+    "39112000": {
+      "description_tr": "Sandalyeler",
+      "description_en": "Chairs",
+      "relevance": "core",
+      "score_boost": 18,
+      "product_match": ["sandalye", "ofis sandalyesi", "çalışma sandalyesi"]
+    },
+    "39113000": {
+      "description_tr": "Çeşitli oturma grupları ve sandalyeler",
+      "description_en": "Miscellaneous seats and chairs",
+      "relevance": "high",
+      "score_boost": 12
+    },
+    "39113100": {
+      "description_tr": "Koltuklar",
+      "description_en": "Armchairs",
+      "relevance": "high",
+      "score_boost": 15,
+      "product_match": ["yönetici koltuğu", "misafir koltuğu"]
+    }
+  },
+  "negative_codes": {
+    "39140000": {
+      "description_tr": "Ev mobilyaları",
+      "description_en": "Domestic furniture",
+      "action": "deprioritize",
+      "note": "Ev mobilyası - ofis mobilyası değil"
+    },
+    "43325000": {
+      "description_tr": "Park ve oyun alanı ekipmanları",
+      "description_en": "Park and playground equipment",
+      "action": "hard_reject",
+      "note": "Çocuk oyun alanı ekipmanları"
+    },
+    "34928400": {
+      "description_tr": "Kent mobilyası",
+      "description_en": "Urban furniture",
+      "action": "hard_reject",
+      "note": "Kent mobilyası, park bankı vb."
+    }
+  },
+  "usage_instructions": {
+    "search": "Use search_okas_codes with primary codes to discover tenders not caught by keyword search. Start with core-relevance codes.",
+    "scoring": "When a tender's OKAS code matches a primary_code with relevance=core, add the full score_boost. For secondary codes, add 75% of boost. For negative codes, apply the specified action.",
+    "discovery": "Periodically run search_okas_codes for all primary codes to find tenders that use formal classification but informal titles."
+  }
+}

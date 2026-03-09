@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "description": "Run metadata for daily, delta, and weekly tender scans.",
+  "last_daily_scan_at": "2026-03-09T08:30:08.560268+03:00",
+  "last_delta_scan_at": null,
+  "last_weekly_summary_at": "2026-03-09T09:21:23.881764+03:00",
+  "last_successful_run_at": "2026-03-09T09:21:23.881764+03:00",
+  "last_run_type": "weekly",
+  "last_report_path": "/Users/emirkoc/.openclaw/workspace/tenders/reports/daily/2026-03-09.md",
+  "last_weekly_report_path": "/Users/emirkoc/.openclaw/workspace/tenders/reports/weekly/2026-[W]11.md",
+  "last_counts": {
+    "scanned": 86,
+    "unique": 60,
+    "hard_rejected": 11,
+    "action": 0,
+    "strong_candidate": 1,
+    "watch": 0,
+    "silent_reject": 55,
+    "suppressed": 45
+  },
+  "updated_at": "2026-03-09T09:21:23.881764+03:00"
+}

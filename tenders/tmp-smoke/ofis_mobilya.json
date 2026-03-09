@@ -1,0 +1,100 @@
+{
+  "tenders": [
+    {
+      "id": "9688ec6dd247e85b218ab5b593c672169fd954ad0ef6b67db237d9d32ff345c2",
+      "name": "Payas Stem Yapay Zeka Merkezi Ofis Mobilyaları",
+      "ikn": "2026/251282",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "PAYAS BELEDİYE BAŞKANLIĞI - DESTEK HİZMETLERİ MÜDÜRLÜĞÜ",
+      "province": "HATAY",
+      "tender_datetime": "10.03.2026 10:00",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "289f9c2fd1d794c2105a2ee8ffb76ed5121febab2cd4f1c9327e6dacf65852b5",
+      "name": "Bakım Onarım Çalışmalarında Kullanılmak Üzere Marangoz Atölyesi Malzeme Alımı İşi",
+      "ikn": "2026/128129",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "KENT ESTETİĞİ DAİRESİ BAŞKANLIĞI",
+      "province": "ANKARA",
+      "tender_datetime": "12.03.2026 10:30",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "72504059f42da9615982e27d255b5abaeb281c8cc2b904da1c7aec3ee6626e6f",
+      "name": "30 ADET BİLGİSAYAR VE GRAFİK İŞLEMCİ SUNUCUSU VE BİLEŞENLERİ",
+      "ikn": "2026/264882",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "İDARİ VE MALİ İŞLER DAİRE BAŞKANLIĞI",
+      "province": "ESKİŞEHİR",
+      "tender_datetime": "16.03.2026 10:00",
+      "document_count": 3,
+      "has_announcement": true,
+      "document_url": "https://ekap.kik.gov.tr/EKAP/Ortak/VatandasIlanGoruntuleme.aspx?ddac=true&aramaDownload=true&ihaleId=349604a53831f88dca29ba93a8cb5c6b22e84948c07f2f9508a5b50864cb9d85&wots=false&Iszylnm=false"
+    },
+    {
+      "id": "7495006c840fb260d9c037eb486b2f79fe10139b5c7312281aaa8e141783e722",
+      "name": "Kdz Ereğli Belediyesi Temizlik İşleri Müdürlüğü Muhtelif Malzeme , Mevsimlik, Çiçek , Yazılım ve Depolama Cihazı",
+      "ikn": "2026/311004",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "EREĞLİ BELEDİYESİ Temizlik İşleri Müdürlüğü",
+      "province": "ZONGULDAK",
+      "tender_datetime": "16.03.2026 10:00",
+      "document_count": 1,
+      "has_announcement": true,
+      "document_url": "https://ekap.kik.gov.tr/EKAP/Ortak/VatandasIlanGoruntuleme.aspx?ddac=true&aramaDownload=true&ihaleId=b156d43af672a8fdb6fd5c95029ec4e220df2becfe5abe684100588611e789a1&wots=false&Iszylnm=false"
+    }
+  ],
+  "total_count": 4,
+  "returned_count": 4,
+  "search_params": {
+    "search_text": "ofis mobilya",
+    "ikn_year": null,
+    "ikn_number": null,
+    "tender_types": [
+      1
+    ],
+    "date_range": {
+      "tender_start": "2026-03-09",
+      "tender_end": null,
+      "announcement_start": null,
+      "announcement_end": null
+    }
+  }
+}

@@ -1,0 +1,67 @@
+# Positive Signals
+# Lines starting with # are comments. Each non-empty, non-comment line is a signal phrase.
+# When found in a tender's title, description, or details, these signals add scoring points.
+# Signals are matched case-insensitively in Turkish locale.
+
+# --- Direct product mentions (strongest signals) ---
+büro mobilyası
+ofis mobilyası
+büro mobilya alımı
+ofis mobilya alımı
+masa alımı
+çalışma masası alımı
+dolap alımı
+dosya dolabı alımı
+koltuk alımı
+ofis koltuğu alımı
+sandalye alımı
+keson alımı
+kitaplık alımı
+panel bölme
+banko alımı
+danışma bankosu
+bekleme koltuğu
+yönetici takımı
+makam takımı
+ofis takımı
+mobilya mal alımı
+mefruşat
+
+# --- Procurement type signals (favor mal alımı over yapım) ---
+mal alımı
+mobilya temini
+mobilya temin edilmesi
+
+# --- Quantity/scale signals (larger tenders = better) ---
+muhtelif mobilya
+çeşitli büro mobilya
+mobilya ve donatım
+donatım malzemesi alımı
+
+# --- Institutional context signals ---
+hizmet binası mobilya
+idari bina mobilya
+yeni bina mobilya
+bina taşınma mobilya
+yenileme mobilya
+ofis yenileme
+büro donatım
+
+# --- Known customer segment signals ---
+hastane idari mobilya
+rektörlük mobilya
+valilik mobilya
+kaymakamlık mobilya
+adliye mobilya
+belediye hizmet binası mobilya
+sosyal tesis mobilya
+kültür merkezi mobilya
+toplantı salonu mobilya
+
+# --- Specification signals (indicate detailed furniture procurement) ---
+ergonomik
+mekanizmalı
+çekmeceli
+kilitli dolap
+arşiv sistemi
+modüler mobilya

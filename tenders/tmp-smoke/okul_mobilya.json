@@ -1,0 +1,40 @@
+{
+  "tenders": [
+    {
+      "id": "6b7f551dc87013226415343a651dd3fc77ddb3ca958fbe96a1f9452f92c9e6d7",
+      "name": "Yemek Masası ve Sıra Tablası Alımı",
+      "ikn": "2026/246349",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "NİĞDE AÇIK CEZA İNFAZ  KUR.İŞ YUR.MÜD. DİĞER ÖZEL BÜTÇELİ KURULUŞLAR CEZA İNFAZ KURUMLARI İLE TUTUKEVLERİ İŞ YURTLARI KURUMU",
+      "province": "NİĞDE",
+      "tender_datetime": "12.03.2026 15:00",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    }
+  ],
+  "total_count": 1,
+  "returned_count": 1,
+  "search_params": {
+    "search_text": "okul mobilya",
+    "ikn_year": null,
+    "ikn_number": null,
+    "tender_types": [
+      1
+    ],
+    "date_range": {
+      "tender_start": "2026-03-09",
+      "tender_end": null,
+      "announcement_start": null,
+      "announcement_end": null
+    }
+  }
+}

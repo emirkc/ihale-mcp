@@ -1,0 +1,101 @@
+{
+  "version": "1.0.0",
+  "description": "Preferred and tracked procurement authorities. Tenders from tier-1 authorities get a scoring boost. Blacklisted authorities are auto-rejected.",
+  "tiers": {
+    "tier_1": {
+      "boost_points": 8,
+      "description": "Large institutional buyers with recurring office furniture needs",
+      "authorities": [
+        {
+          "name": "Sağlık Bakanlığı",
+          "note": "Hastane ve sağlık tesisi mobilya ihaleleri"
+        },
+        {
+          "name": "Milli Eğitim Bakanlığı",
+          "note": "İl/İlçe MEM ve okul yönetim mobilyaları"
+        },
+        {
+          "name": "Adalet Bakanlığı",
+          "note": "Adliye ve cezaevi idari mobilya"
+        },
+        {
+          "name": "İçişleri Bakanlığı",
+          "note": "Valilik, kaymakamlık, emniyet mobilya"
+        },
+        {
+          "name": "Cumhurbaşkanlığı İdari İşler Başkanlığı",
+          "note": "Üst düzey kamu mobilya alımları"
+        },
+        {
+          "name": "TBMM",
+          "note": "Meclis mobilya alımları"
+        }
+      ]
+    },
+    "tier_2": {
+      "boost_points": 5,
+      "description": "Regular public buyers with moderate furniture budgets",
+      "authorities": [
+        {
+          "name": "Büyükşehir Belediyeleri",
+          "pattern": "belediye",
+          "note": "Belediye hizmet binaları, sosyal tesisler"
+        },
+        {
+          "name": "Üniversiteler",
+          "pattern": "üniversite",
+          "note": "Rektörlük, fakülte, idari bina mobilyaları"
+        },
+        {
+          "name": "Devlet Hastaneleri",
+          "pattern": "hastane",
+          "note": "İdari ve poliklinik mobilyaları"
+        },
+        {
+          "name": "SSK/SGK İl Müdürlükleri",
+          "pattern": "sosyal güvenlik",
+          "note": "Hizmet binası mobilya yenileme"
+        },
+        {
+          "name": "Vergi Daireleri / Maliye",
+          "pattern": "maliye|vergi dairesi|defterdarlık",
+          "note": "Ofis mobilya alımları"
+        }
+      ]
+    },
+    "tier_3": {
+      "boost_points": 2,
+      "description": "Smaller or infrequent buyers",
+      "authorities": [
+        {
+          "name": "İlçe Belediyeleri",
+          "pattern": "ilçe belediye",
+          "note": "Küçük ölçekli alımlar, genellikle düşük bütçe"
+        },
+        {
+          "name": "Köylere Hizmet Götürme Birlikleri",
+          "pattern": "köylere hizmet",
+          "note": "Nadiren büro mobilyası, genellikle dış mekan"
+        }
+      ]
+    }
+  },
+  "blacklist": {
+    "description": "Authorities whose tenders almost never include relevant office furniture",
+    "authorities": [
+      {
+        "name": "DSİ (Devlet Su İşleri)",
+        "reason": "Genellikle yapım/inşaat ihaleleri"
+      },
+      {
+        "name": "Karayolları Genel Müdürlüğü",
+        "reason": "Yol yapım, asfalt, köprü ihaleleri"
+      },
+      {
+        "name": "TCDD",
+        "reason": "Demiryolu altyapı ve araç ihaleleri"
+      }
+    ]
+  },
+  "tracking_notes": "Bu liste operatör tarafından düzenli olarak güncellenmelidir. Yeni kurumsal müşteriler kazanıldıkça tier listesine eklenmelidir."
+}

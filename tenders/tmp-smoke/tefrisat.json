@@ -1,0 +1,60 @@
+{
+  "tenders": [
+    {
+      "id": "637d7e19db6f89dc540350434353794d4e0b951cbf8be2e6986295141aa7bca3",
+      "name": "VAN İLİ MURADİYE İLÇESİ KÜLTÜR MERKEZİ TEFRİŞAT MALZEMESİ ALIM İŞİ",
+      "ikn": "2026/356152",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "VAN YATIRIM İZLEME VE KOORDİNASYON BAŞKANLIĞI",
+      "province": "VAN",
+      "tender_datetime": "23.03.2026 10:30",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "9a636264fee489075eac7e2bc2536c2c31c14459621798d783649e4962fa350b",
+      "name": "SARF KARŞILIĞI TPN VE İLAÇ HAZIRLAMA ÜNİTESİ ALIMI",
+      "ikn": "2026/326086",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "Çocuk Hastalıkları Hastanesi-Bursa Dörtçelik SAĞLIK BAKANLIĞI BAKAN YARDIMCILIKLARI",
+      "province": "BURSA",
+      "tender_datetime": "24.03.2026 10:00",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    }
+  ],
+  "total_count": 2,
+  "returned_count": 2,
+  "search_params": {
+    "search_text": "tefrişat",
+    "ikn_year": null,
+    "ikn_number": null,
+    "tender_types": [
+      1
+    ],
+    "date_range": {
+      "tender_start": "2026-03-09",
+      "tender_end": null,
+      "announcement_start": null,
+      "announcement_end": null
+    }
+  }
+}

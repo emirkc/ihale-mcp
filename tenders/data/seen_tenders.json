@@ -1,0 +1,1050 @@
+{
+  "version": "1.0.0",
+  "description": "State store for previously seen tenders. Used for dedupe, repeat suppression, and change detection.",
+  "items": [
+    {
+      "ikn": "2026/423440",
+      "title": "2026 YILI KENT MOBİLYALARI ALIMI İŞİ",
+      "authority": "FATİH BELEDİYESİ PARK VE BAHÇELER MÜDÜRLÜĞÜ",
+      "province": "İSTANBUL",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "REJECTED",
+      "latest_internal_score": 0,
+      "latest_external_score": 1.0,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": "2026-03-09T00:24:08.866697+03:00",
+      "matched_clusters": [
+        "KC-10"
+      ],
+      "suppression_count": 2
+    },
+    {
+      "ikn": "2026/410661",
+      "title": "Bayraklı Belediyesi Şantiye Ekiplerince Kullanılmak Üzere Elektrik ve Hırdavat Malzemeleri Alınması İşi",
+      "authority": "Bayrakli Belediyesi FEN İŞLERİ MÜDÜRLÜĞÜ",
+      "province": "İZMİR",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "OUT_OF_WINDOW",
+      "latest_internal_score": 0,
+      "latest_external_score": 1.0,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-09"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/402821",
+      "title": "Tıbbi Malzeme ve Cihaz",
+      "authority": "SULTANBEYLİ BELEDİYE BAŞKANLIĞI - ARAŞTIRMA VE GELİŞTİRME MÜDÜRLÜĞÜ",
+      "province": "İSTANBUL",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "SEEN",
+      "latest_internal_score": 15,
+      "latest_external_score": 1.5,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-03"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/399218",
+      "title": "3 Kalem Muhtelif ölçü, renk ve adetlerde suntalam",
+      "authority": "BOLU AÇIK CEZA İNFAZ KURUMU İŞYURDU MÜDÜRLÜĞÜ",
+      "province": "BOLU",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "SEEN",
+      "latest_internal_score": 13,
+      "latest_external_score": 1.3,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-10"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/398012",
+      "title": "iş Kıyafeti Alımı İşi",
+      "authority": "BESOT MANİSA BELEDİYESİ SOSYAL TESİSLERİ VE ENERJİ TİCARET VE SANAYİ ANONİM ŞİRKETİ  ",
+      "province": "MANİSA",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "OUT_OF_WINDOW",
+      "latest_internal_score": 0,
+      "latest_external_score": 1.0,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-09"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/397346",
+      "title": "MUHTELİF PARK MALZEMELERİ MAL ALIMI İŞİ",
+      "authority": "DESTEK HİZMETLERİ MÜDÜRLÜĞÜ",
+      "province": "AĞRI",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "SEEN",
+      "latest_internal_score": 16,
+      "latest_external_score": 1.6,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-15"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/395281",
+      "title": "2026 YILI PNÖMATİK MANTAR BARİYER SİSTEMLERİNİN TEMİNİ VE BAKIM ONARIMLARININ YAPTIRILMASINA YÖNELİK MAL ALIMI İŞİ",
+      "authority": "FEN İŞLERİ MÜDÜRLÜĞÜ",
+      "province": "İSTANBUL",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "SEEN",
+      "latest_internal_score": 16,
+      "latest_external_score": 1.6,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-03"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/394486",
+      "title": "SELÇUKLU SPORCU SEÇME VE YETİŞTİRME MERKEZİ İÇİN 2 KISIM BÜRO MALZEMESİ VE SOYUNMA ODASI MOBİLYA ALIMI İŞİ",
+      "authority": "SELÇUKLU BELEDİYE BAŞKANLIĞI - GENÇLİK VE SPOR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "province": "KONYA",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "OUT_OF_WINDOW",
+      "latest_internal_score": 0,
+      "latest_external_score": 1.0,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": "2026-03-09T00:24:08.866697+03:00",
+      "matched_clusters": [
+        "KC-02",
+        "KC-03",
+        "KC-04",
+        "KC-10"
+      ],
+      "suppression_count": 2
+    },
+    {
+      "ikn": "2026/373823",
+      "title": "BELEDİYEMİZ SOSYAL TESİSLERİ (GÜMÜŞ RESTORAN, BUHARA RESTORAN)  ,AŞEVLERİ (AKÇABURGAZ, KIRAÇ VE YILDIZ CAMİİ) MOBİLYA ALIMI İŞİ",
+      "authority": "ESENYURT BELEDİYESİ DESTEK HİZMETLERİ MÜDÜRLÜĞÜ",
+      "province": "İSTANBUL",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "SEEN",
+      "latest_internal_score": 48,
+      "latest_external_score": 4.8,
+      "latest_classification": "WATCH",
+      "last_reported_at": "2026-03-09T08:30:08.560268+03:00",
+      "matched_clusters": [
+        "KC-10"
+      ],
+      "suppression_count": 3
+    },
+    {
+      "ikn": "2026/372482",
+      "title": "ENDÜSTRİYEL MUTFAK MALZEMELERİ VE MOBİLYA ALIMI",
+      "authority": "BELEDİYE BAŞKAN YARDIMCILIĞI 4",
+      "province": "AFYONKARAHİSAR",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "SEEN",
+      "latest_internal_score": 47,
+      "latest_external_score": 4.7,
+      "latest_classification": "WATCH",
+      "last_reported_at": "2026-03-09T08:30:08.560268+03:00",
+      "matched_clusters": [
+        "KC-10"
+      ],
+      "suppression_count": 3
+    },
+    {
+      "ikn": "2026/365345",
+      "title": "Tarımsal ve Veterinerlik Hizmetleri Kapsamında Tıbbi Malzeme, Tıbbi Cihaz, İlaç ve Biyosidal İlaç Alımı",
+      "authority": "Eskişehir Büyükşehir Belediyesi SATINALMA DAİRESİ BAŞKANLIĞI",
+      "province": "ESKİŞEHİR",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "OUT_OF_WINDOW",
+      "latest_internal_score": 0,
+      "latest_external_score": 1.0,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-03"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/360121",
+      "title": "KIRTASİYE MALZEMELERİ ALIM İŞİ",
+      "authority": "MALTEPE BELEDİYESİ  DESTEK HİZMETLER MÜDÜRLÜĞÜ",
+      "province": "İSTANBUL",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "SEEN",
+      "latest_internal_score": 15,
+      "latest_external_score": 1.5,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-07"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/359430",
+      "title": "Çatılı Ahşap Piknik Masası ve Döküm Ayaklı Bank Alımı",
+      "authority": "KARAHALİL BELEDİYE BAŞKANLIĞI",
+      "province": "KIRKLARELİ",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "REJECTED",
+      "latest_internal_score": 0,
+      "latest_external_score": 1.0,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-02"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/356152",
+      "title": "VAN İLİ MURADİYE İLÇESİ KÜLTÜR MERKEZİ TEFRİŞAT MALZEMESİ ALIM İŞİ",
+      "authority": "VAN YATIRIM İZLEME VE KOORDİNASYON BAŞKANLIĞI",
+      "province": "VAN",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "SEEN",
+      "latest_internal_score": 45,
+      "latest_external_score": 4.5,
+      "latest_classification": "WATCH",
+      "last_reported_at": "2026-03-09T08:30:08.560268+03:00",
+      "matched_clusters": [
+        "KC-02",
+        "KC-10",
+        "KC-15"
+      ],
+      "suppression_count": 3
+    },
+    {
+      "ikn": "2026/349884",
+      "title": "3 KALEM TIBBİ MALZEME VE 68 KALEM AVADANLIK YEDEK PARÇA ALIM İŞİ",
+      "authority": "Çocuk Hastalıkları Hastanesi-Diyarbakır SAĞLIK BAKANLIĞI BAKAN YARDIMCILIKLARI",
+      "province": "DİYARBAKIR",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "SEEN",
+      "latest_internal_score": 18,
+      "latest_external_score": 1.8,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-02"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/345756",
+      "title": "39 KALEM SAĞLIKLI HAYAT MERKEZLERİ İÇİN CİHAZ VE MALZEME  ALIMI",
+      "authority": "KOCAELİ İL SAĞLIK MÜDÜRLÜĞÜ",
+      "province": "KOCAELİ",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "SEEN",
+      "latest_internal_score": 13,
+      "latest_external_score": 1.3,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-02",
+        "KC-03"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/340593",
+      "title": "SPOR MALZEMELERİ ALIMI",
+      "authority": "RİZE EĞİTİM VE ARAŞTIRMA HASTANESİ BAŞHEKİMLİĞİ",
+      "province": "RİZE",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "LAST_CALL",
+      "latest_internal_score": 9,
+      "latest_external_score": 1.0,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-02"
+      ],
+      "suppression_count": 0
+    },
+    {
+      "ikn": "2026/338946",
+      "title": "GENÇLİK MERKEZİ MOBİLYA  (MONTAJ DAHİL)",
+      "authority": "ONİKİŞUBAT BELEDİYE BAŞKANLIĞI - DESTEK HİZMETLERİ MÜDÜRLÜĞÜ",
+      "province": "KAHRAMANMARAŞ",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "SEEN",
+      "latest_internal_score": 67,
+      "latest_external_score": 6.7,
+      "latest_classification": "STRONG_CANDIDATE",
+      "last_reported_at": "2026-03-09T08:30:08.560268+03:00",
+      "matched_clusters": [
+        "KC-02",
+        "KC-05",
+        "KC-07",
+        "KC-08",
+        "KC-10"
+      ],
+      "suppression_count": 3
+    },
+    {
+      "ikn": "2026/331814",
+      "title": "Hastanemiz Geneli 33 Kalem Marangoz Atölyesine Malzeme Alımı",
+      "authority": "İSTANBUL GÖZTEPE PROF. DR. SÜLEYMAN YALÇIN ŞEHİR HASTANESİ BAŞHEKİMLİĞİ",
+      "province": "İSTANBUL",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "LAST_CALL",
+      "latest_internal_score": 9,
+      "latest_external_score": 1.0,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-02"
+      ],
+      "suppression_count": 0
+    },
+    {
+      "ikn": "2026/329020",
+      "title": "KADIN KOOPERATİFLERİ ÜRETEREK KARSIN EKONOMİSİNE KATKI SUNUYOR PROJESİ KAPSAMINDA MAL ALIMI",
+      "authority": "Kars Özel İdaresi Genel Sekreterlik",
+      "province": "KARS",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "SEEN",
+      "latest_internal_score": 13,
+      "latest_external_score": 1.3,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-03"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/327684",
+      "title": "Ses ve Işık Sistemi",
+      "authority": "TORBALI BELEDİYESİ ",
+      "province": "İZMİR",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "SEEN",
+      "latest_internal_score": 15,
+      "latest_external_score": 1.5,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-02"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/327651",
+      "title": "Temizlik Malzemeleri Alımı",
+      "authority": "ERBAA BELEDİYE BAŞKANLIĞI - DESTEK HİZMETLERİ MÜDÜRLÜĞÜ",
+      "province": "TOKAT",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "LAST_CALL",
+      "latest_internal_score": 9,
+      "latest_external_score": 1.0,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-10"
+      ],
+      "suppression_count": 0
+    },
+    {
+      "ikn": "2026/326037",
+      "title": "2026 yılı belediyemiz müdürlükleri ihtiyacı olan temizlik malzemeleri alımı",
+      "authority": "AKDENİZ BELEDİYESİ DESTEK HİZMETLERİ MÜDÜRLÜĞÜ",
+      "province": "MERSİN",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "SEEN",
+      "latest_internal_score": 15,
+      "latest_external_score": 1.5,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-10"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/324894",
+      "title": "Engelsiz Gelecek Atölyeleri Projesi  Malzeme Alımı",
+      "authority": "DESTEK HİZMETLERİ MÜDÜRLÜĞÜ",
+      "province": "ÇORUM",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "SEEN",
+      "latest_internal_score": 10,
+      "latest_external_score": 1.0,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-02"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/321977",
+      "title": "Kedi Kısırlaştırma Merkezine Malzeme Alımı",
+      "authority": "YÜREĞİR BELEDİYE BAŞKANLIĞI - DESTEK HİZMETLERİ MÜDÜRLÜĞÜ",
+      "province": "ADANA",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "SEEN",
+      "latest_internal_score": 15,
+      "latest_external_score": 1.5,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-03"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/319171",
+      "title": "ELEKTRİK, HIRDAVAT VE TESİSAT MALZEMESİ ALIMI",
+      "authority": "ŞANLIURFA GENÇLİK VE SPOR İL MÜDÜRLÜĞÜ GENÇLİK VE SPOR İL MÜDÜRLÜKLERİ GENÇLİK VE SPOR İL MÜDÜRLÜĞÜ",
+      "province": "ŞANLIURFA",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "SEEN",
+      "latest_internal_score": 13,
+      "latest_external_score": 1.3,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-02"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/318097",
+      "title": "MUHTELİF BAYRAK ALIM İŞİ",
+      "authority": "DESTEK HİZMETLERİ MÜDÜRLÜĞÜ",
+      "province": "İSTANBUL",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "SEEN",
+      "latest_internal_score": 13,
+      "latest_external_score": 1.3,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-02"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/317822",
+      "title": "TIBBİ MALZEME YEDEK PARÇA ALIM İHALESİ",
+      "authority": "İl Sağlık Müdürlüğü SAĞLIK BAKANLIĞI BAKAN YARDIMCILIKLARI",
+      "province": "IĞDIR",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "SEEN",
+      "latest_internal_score": 18,
+      "latest_external_score": 1.8,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-02"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/316020",
+      "title": "İNŞAAT MALZEMELERİ ALIMI",
+      "authority": "KEPEZ BELEDİYESİ PARK VE BAHÇELER MÜDÜRLÜĞÜ",
+      "province": "ANTALYA",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "SEEN",
+      "latest_internal_score": 15,
+      "latest_external_score": 1.5,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-03",
+        "KC-10"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/315199",
+      "title": "ÇATILI PİKNİK MASASI, TABELA, ÇOCUK OYUN PARKI VE GİRİŞ TAKI ALIMI",
+      "authority": "BOZKIR BELEDİYESİ FEN İŞLERİ",
+      "province": "KONYA",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "REJECTED",
+      "latest_internal_score": 0,
+      "latest_external_score": 1.0,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-02"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/314436",
+      "title": "2026 Yılı Kent Mobilyaları, Çevre Düzenleme ve Oyun Grubu Malzemeleri Alımı",
+      "authority": "ALİAĞA BELEDİYESİ Park ve Bahçeler Müdürlüğü",
+      "province": "İZMİR",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "REJECTED",
+      "latest_internal_score": 0,
+      "latest_external_score": 1.0,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-02",
+        "KC-15"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/311004",
+      "title": "Kdz Ereğli Belediyesi Temizlik İşleri Müdürlüğü Muhtelif Malzeme , Mevsimlik, Çiçek , Yazılım ve Depolama Cihazı",
+      "authority": "EREĞLİ BELEDİYESİ Temizlik İşleri Müdürlüğü",
+      "province": "ZONGULDAK",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "SEEN",
+      "latest_internal_score": 15,
+      "latest_external_score": 1.5,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-09",
+        "KC-10"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/303160",
+      "title": "Belediyemiz Birimlerinde Kullanılmak Üzere Temizlik Malzemeleri Alımı İşi",
+      "authority": "MANİSA BÜYÜKŞEHİR BELEDİYESİ DESTEK HİZMETLERİ DAİRESİ BAŞKANLIĞI",
+      "province": "MANİSA",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "LAST_CALL",
+      "latest_internal_score": 9,
+      "latest_external_score": 1.0,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-10"
+      ],
+      "suppression_count": 0
+    },
+    {
+      "ikn": "2026/300503",
+      "title": "1584 Kalem Basılı Kitap",
+      "authority": "KÜTÜPHANE VE DOKÜMANTASYON DAİRE BAŞKANLIĞI",
+      "province": "İSTANBUL",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "OUT_OF_WINDOW",
+      "latest_internal_score": 0,
+      "latest_external_score": 1.0,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-03"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/297583",
+      "title": "Park Malzemeleri Alım İşi",
+      "authority": "ARTUKLU BELEDİYESİ PARK VE BAHÇELER MÜDÜRLÜĞÜ",
+      "province": "MARDİN",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "SEEN",
+      "latest_internal_score": 15,
+      "latest_external_score": 1.5,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-02"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/295270",
+      "title": "SAHİPSİZ HAYVAN BAKIM VE REHABİLİTASYON MERKEZİ İÇİN VETERİNER TIBBİ CİHAZ ALIMI",
+      "authority": "AFYONKARAHİSAR BELEDİYESİ VETERİNER İŞLERİ MÜDÜRLÜĞÜ",
+      "province": "AFYONKARAHİSAR",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "SEEN",
+      "latest_internal_score": 15,
+      "latest_external_score": 1.5,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-02"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/295206",
+      "title": "SOKAK HAYVANLARI İÇİN TIBBİ CİHAZ VE ALET ALIMI İŞİ",
+      "authority": "SANCAKTEPE BELEDİYE BAŞKANLIĞI",
+      "province": "İSTANBUL",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "SEEN",
+      "latest_internal_score": 15,
+      "latest_external_score": 1.5,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-02"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/285804",
+      "title": "KAMELYA, PİKNİK MASASI, SIRTLIKLI VE SIRTLIKSIZ BANK ALIMI İŞİ",
+      "authority": "PARK VE BAHÇELER MÜDÜRLÜĞÜ",
+      "province": "HATAY",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "REJECTED",
+      "latest_internal_score": 0,
+      "latest_external_score": 1.0,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-02"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/280042",
+      "title": "Kayseri Adli Tıp Grup Başkanlığı Morg İhtisas Dairesine Muhtelif Cihaz ve Demirbaş Alımı",
+      "authority": "ADLİ TIP KURUMU BAŞKANLIĞI",
+      "province": "İSTANBUL",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "SEEN",
+      "latest_internal_score": 13,
+      "latest_external_score": 1.3,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-02",
+        "KC-03"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/279565",
+      "title": "BALÇOVA BELEDİYESİ 2026 YILI 7 KISIM MUHTELİF MAL VE MALZEME ALIMI İŞİ",
+      "authority": "BALÇOVA BELEDİYESİ DESTEK HİZMETLERİ MÜDÜRLÜĞÜ",
+      "province": "İZMİR",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "LAST_CALL",
+      "latest_internal_score": 9,
+      "latest_external_score": 1.0,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-02"
+      ],
+      "suppression_count": 0
+    },
+    {
+      "ikn": "2026/279162",
+      "title": "KENT DONATI ELAMANLARI",
+      "authority": "ALAPLI BELEDİYESİ ALAPLI BELEDİYE BAŞKANLIĞI",
+      "province": "ZONGULDAK",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "REJECTED",
+      "latest_internal_score": 0,
+      "latest_external_score": 1.0,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-02"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/277068",
+      "title": "MUHTELİF TÜR VE MİKTARLARDA BEYAZ EŞYA, FIRIN, ÇAY MAKİNESİ, ELEKTRİKLİ SÜPÜRGE, HALI, SEDİR VE PROFİL DEMİR ALIMI",
+      "authority": "K.MARAŞ BÜYÜKŞEHİR BELEDİYESİ Kadın Aile ve Sosyal Hizmetler Dairesi Başkanlığı",
+      "province": "KAHRAMANMARAŞ",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "SEEN",
+      "latest_internal_score": 15,
+      "latest_external_score": 1.5,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-15"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/268184",
+      "title": "Makine, Ekipman ve Atölye Yardımcı Malzemeleri Alımı",
+      "authority": "MİLLİ EĞİTİM BAKANLIĞI - KASTAMONU HALK EĞİTİMİ MERKEZİ MÜDÜRLÜĞÜ",
+      "province": "KASTAMONU",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "SEEN",
+      "latest_internal_score": 15,
+      "latest_external_score": 1.5,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-02"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/264882",
+      "title": "30 ADET BİLGİSAYAR VE GRAFİK İŞLEMCİ SUNUCUSU VE BİLEŞENLERİ",
+      "authority": "İDARİ VE MALİ İŞLER DAİRE BAŞKANLIĞI",
+      "province": "ESKİŞEHİR",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "SEEN",
+      "latest_internal_score": 13,
+      "latest_external_score": 1.3,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-10"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/259668",
+      "title": "Alüminyum, PVC, Cam, Asma Tavan Malzemeleri ve Aksesuarları Mal Alımı",
+      "authority": "UŞAK BELEDİYE BAŞKANLIĞI - MAKİNE İKMAL, BAKIM VE ONARIM MÜDÜRLÜĞÜ",
+      "province": "UŞAK",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "LAST_CALL",
+      "latest_internal_score": 9,
+      "latest_external_score": 1.0,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-06"
+      ],
+      "suppression_count": 0
+    },
+    {
+      "ikn": "2026/259210",
+      "title": "Payas Stem Yapay Zeka Merkezine Atölye ve Laboratuvar Malzemeleri",
+      "authority": "PAYAS BELEDİYE BAŞKANLIĞI - DESTEK HİZMETLERİ MÜDÜRLÜĞÜ",
+      "province": "HATAY",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "SEEN",
+      "latest_internal_score": 15,
+      "latest_external_score": 1.5,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-02",
+        "KC-03"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/258888",
+      "title": "Kırtasiye Malzemeleri Alımı İşi",
+      "authority": "ESENYURT BELEDİYESİ DESTEK HİZMETLERİ MÜDÜRLÜĞÜ",
+      "province": "İSTANBUL",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "LAST_CALL",
+      "latest_internal_score": 9,
+      "latest_external_score": 1.0,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-07"
+      ],
+      "suppression_count": 0
+    },
+    {
+      "ikn": "2026/251282",
+      "title": "Payas Stem Yapay Zeka Merkezi Ofis Mobilyaları",
+      "authority": "PAYAS BELEDİYE BAŞKANLIĞI - DESTEK HİZMETLERİ MÜDÜRLÜĞÜ",
+      "province": "HATAY",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "LAST_CALL",
+      "latest_internal_score": 80,
+      "latest_external_score": 8.0,
+      "latest_classification": "STRONG_CANDIDATE",
+      "last_reported_at": "2026-03-09T08:30:08.560268+03:00",
+      "matched_clusters": [
+        "KC-02",
+        "KC-03",
+        "KC-04"
+      ],
+      "suppression_count": 0
+    },
+    {
+      "ikn": "2026/250581",
+      "title": "311  Kalem Elektrik,Tesisat ve Hırdavat Malzeme Alımı İşi",
+      "authority": "BATMAN EĞİTİM VE ARAŞTIRMA HASTANESİ BAŞHEKİMLİĞİ",
+      "province": "BATMAN",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "SEEN",
+      "latest_internal_score": 12,
+      "latest_external_score": 1.2,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-02"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/246349",
+      "title": "Yemek Masası ve Sıra Tablası Alımı",
+      "authority": "NİĞDE AÇIK CEZA İNFAZ  KUR.İŞ YUR.MÜD. DİĞER ÖZEL BÜTÇELİ KURULUŞLAR CEZA İNFAZ KURUMLARI İLE TUTUKEVLERİ İŞ YURTLARI KURUMU",
+      "province": "NİĞDE",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "SEEN",
+      "latest_internal_score": 10,
+      "latest_external_score": 1.0,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-02",
+        "KC-10"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/246127",
+      "title": "117 KALEM AVADANLIK VE YEDEK PARÇA MALZEMESİ ALIMI",
+      "authority": "ANKARA EĞİTİM VE ARAŞTIRMA HASTANESİ BAŞHEKİMLİĞİ",
+      "province": "ANKARA",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "SEEN",
+      "latest_internal_score": 15,
+      "latest_external_score": 1.5,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-02"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/237122",
+      "title": "İstanbul İli Şehit Yakınları ve Gaziler İçin Sosyal Projeler Kapsamında Mal",
+      "authority": "İSTANBUL BÜYÜKŞEHİR BELEDİYE BAŞKANLIĞI - ŞEHİT YAKINLARI VE GAZİLERLE İLİŞKİLER ŞUBE MÜDÜRLÜĞÜ",
+      "province": "İSTANBUL",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "SEEN",
+      "latest_internal_score": 15,
+      "latest_external_score": 1.5,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-09"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/233643",
+      "title": "KOLTUK DÖŞEME ATÖLYESİNE 5 KALEM TEKLİ MİSAFİR KOLTUĞU MALZEMESİ SATIN ALIMI",
+      "authority": "ESKİŞEHİR 1 NOLU AÇIK CEZA İNFAZ KURUMU İŞYURDU MÜDÜRLÜĞÜ",
+      "province": "ESKİŞEHİR",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "LAST_CALL",
+      "latest_internal_score": 7,
+      "latest_external_score": 1.0,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-04",
+        "KC-10"
+      ],
+      "suppression_count": 0
+    },
+    {
+      "ikn": "2026/228374",
+      "title": "2026 YILI SPOR MALZEMELERİ VE EKİPMANLARI MAL ALIM İŞİ",
+      "authority": "KAĞITHANE BELEDİYE BAŞKANLIĞI - GENÇLİK VE SPOR HİZMETLERİ MÜDÜRLÜĞÜ",
+      "province": "İSTANBUL",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "LAST_CALL",
+      "latest_internal_score": 9,
+      "latest_external_score": 1.0,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-02"
+      ],
+      "suppression_count": 0
+    },
+    {
+      "ikn": "2026/226181",
+      "title": "SPOR MALZEMESİ ALIMI İŞİ",
+      "authority": "KOCAELİ GENÇLİK VE SPOR İL MÜDÜRLÜĞÜ",
+      "province": "KOCAELİ",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "LAST_CALL",
+      "latest_internal_score": 7,
+      "latest_external_score": 1.0,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-02"
+      ],
+      "suppression_count": 0
+    },
+    {
+      "ikn": "2026/214258",
+      "title": "277 Kalem Sarf Mal/Malzeme Alımı İşi",
+      "authority": "DİŞ HEKİMLİĞİ FAKÜLTESİ DEKANLIĞI",
+      "province": "GİRESUN",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "LAST_CALL",
+      "latest_internal_score": 7,
+      "latest_external_score": 1.0,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-09"
+      ],
+      "suppression_count": 0
+    },
+    {
+      "ikn": "2026/157374",
+      "title": "7 KISIM MAL VE MALZEME ALIM İŞİ",
+      "authority": "KIRIKKALE BELEDİYESİ Park ve Bahçeler Müdürlüğü",
+      "province": "KIRIKKALE",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "LAST_CALL",
+      "latest_internal_score": 9,
+      "latest_external_score": 1.0,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-10",
+        "KC-15"
+      ],
+      "suppression_count": 0
+    },
+    {
+      "ikn": "2026/128129",
+      "title": "Bakım Onarım Çalışmalarında Kullanılmak Üzere Marangoz Atölyesi Malzeme Alımı İşi",
+      "authority": "KENT ESTETİĞİ DAİRESİ BAŞKANLIĞI",
+      "province": "ANKARA",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "SEEN",
+      "latest_internal_score": 10,
+      "latest_external_score": 1.0,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-06",
+        "KC-09",
+        "KC-10"
+      ],
+      "suppression_count": 4
+    },
+    {
+      "ikn": "2026/110422",
+      "title": "2026 Yılı Muhtelif Nalbur, Elektrik, Boya ve Mdf Malzemeleri",
+      "authority": "İSTANBUL BÜYÜKŞEHİR BELEDİYE BAŞKANLIĞI - İŞLETMELER ŞUBE MÜDÜRLÜĞÜ",
+      "province": "İSTANBUL",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "LAST_CALL",
+      "latest_internal_score": 9,
+      "latest_external_score": 1.0,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-10",
+        "KC-15"
+      ],
+      "suppression_count": 0
+    },
+    {
+      "ikn": "2026/102163",
+      "title": "10 KALEM TIBBİ CİHAZ ALIMI",
+      "authority": "ANKARA EĞİTİM VE ARAŞTIRMA HASTANESİ BAŞHEKİMLİĞİ",
+      "province": "ANKARA",
+      "first_seen_at": "2026-03-09T00:14:41.238902+03:00",
+      "last_seen_at": "2026-03-09T08:30:08.560268+03:00",
+      "latest_status": "LAST_CALL",
+      "latest_internal_score": 9,
+      "latest_external_score": 1.0,
+      "latest_classification": "SILENT_REJECT",
+      "last_reported_at": null,
+      "matched_clusters": [
+        "KC-02"
+      ],
+      "suppression_count": 0
+    }
+  ],
+  "updated_at": "2026-03-09T08:30:08.560268+03:00"
+}

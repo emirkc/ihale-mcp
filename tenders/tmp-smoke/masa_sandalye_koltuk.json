@@ -1,0 +1,60 @@
+{
+  "tenders": [
+    {
+      "id": "db9d7225151fafd9efd73c4f8a0d17b37705a713a77e6d3e61a5dff98f876cfc",
+      "name": "Payas Stem Yapay Zeka Merkezi Ofis Mobilyaları",
+      "ikn": "2026/251282",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "PAYAS BELEDİYE BAŞKANLIĞI - DESTEK HİZMETLERİ MÜDÜRLÜĞÜ",
+      "province": "HATAY",
+      "tender_datetime": "10.03.2026 10:00",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "8964913cec38a7f83839400226113ebf102d312d43d4a6445d9e9bb43e3e7ec6",
+      "name": "GENÇLİK MERKEZİ MOBİLYA  (MONTAJ DAHİL)",
+      "ikn": "2026/338946",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "ONİKİŞUBAT BELEDİYE BAŞKANLIĞI - DESTEK HİZMETLERİ MÜDÜRLÜĞÜ",
+      "province": "KAHRAMANMARAŞ",
+      "tender_datetime": "19.03.2026 10:00",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    }
+  ],
+  "total_count": 2,
+  "returned_count": 2,
+  "search_params": {
+    "search_text": "masa sandalye koltuk",
+    "ikn_year": null,
+    "ikn_number": null,
+    "tender_types": [
+      1
+    ],
+    "date_range": {
+      "tender_start": "2026-03-09",
+      "tender_end": null,
+      "announcement_start": null,
+      "announcement_end": null
+    }
+  }
+}

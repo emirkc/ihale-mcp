@@ -1,0 +1,1807 @@
+{
+  "version": "1.0.0",
+  "description": "Chronological event log for tender discovery, rescoring, reporting, suppression, and enrichment.",
+  "events": [
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/340593",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT SPOR MALZEMELERİ ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/228374",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 2026 YILI SPOR MALZEMELERİ VE EKİPMANLARI MAL ALIM İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/102163",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 10 KALEM TIBBİ CİHAZ ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/226181",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT SPOR MALZEMESİ ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/315199",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT ÇATILI PİKNİK MASASI, TABELA, ÇOCUK OYUN PARKI VE GİRİŞ TAKI ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/251282",
+      "event_type": "reported",
+      "summary": "WATCH Payas Stem Yapay Zeka Merkezi Ofis Mobilyaları"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/331814",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Hastanemiz Geneli 33 Kalem Marangoz Atölyesine Malzeme Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/359430",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Çatılı Ahşap Piknik Masası ve Döküm Ayaklı Bank Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/279565",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT BALÇOVA BELEDİYESİ 2026 YILI 7 KISIM MUHTELİF MAL VE MALZEME ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/250581",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 311  Kalem Elektrik,Tesisat ve Hırdavat Malzeme Alımı İşi"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/324894",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Engelsiz Gelecek Atölyeleri Projesi  Malzeme Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/285804",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT KAMELYA, PİKNİK MASASI, SIRTLIKLI VE SIRTLIKSIZ BANK ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/246349",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Yemek Masası ve Sıra Tablası Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/268184",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Makine, Ekipman ve Atölye Yardımcı Malzemeleri Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/297583",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Park Malzemeleri Alım İşi"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/295206",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT SOKAK HAYVANLARI İÇİN TIBBİ CİHAZ VE ALET ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/295270",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT SAHİPSİZ HAYVAN BAKIM VE REHABİLİTASYON MERKEZİ İÇİN VETERİNER TIBBİ CİHAZ ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/259210",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Payas Stem Yapay Zeka Merkezine Atölye ve Laboratuvar Malzemeleri"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/280042",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Kayseri Adli Tıp Grup Başkanlığı Morg İhtisas Dairesine Muhtelif Cihaz ve Demirbaş Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/319171",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT ELEKTRİK, HIRDAVAT VE TESİSAT MALZEMESİ ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/345756",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 39 KALEM SAĞLIKLI HAYAT MERKEZLERİ İÇİN CİHAZ VE MALZEME  ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/349884",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 3 KALEM TIBBİ MALZEME VE 68 KALEM AVADANLIK YEDEK PARÇA ALIM İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/246127",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 117 KALEM AVADANLIK VE YEDEK PARÇA MALZEMESİ ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/338946",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT GENÇLİK MERKEZİ MOBİLYA  (MONTAJ DAHİL)"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/318097",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT MUHTELİF BAYRAK ALIM İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/314436",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 2026 Yılı Kent Mobilyaları, Çevre Düzenleme ve Oyun Grubu Malzemeleri Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/327684",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Ses ve Işık Sistemi"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/356152",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT VAN İLİ MURADİYE İLÇESİ KÜLTÜR MERKEZİ TEFRİŞAT MALZEMESİ ALIM İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/279162",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT KENT DONATI ELAMANLARI"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/317822",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT TIBBİ MALZEME YEDEK PARÇA ALIM İHALESİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/394486",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT SELÇUKLU SPORCU SEÇME VE YETİŞTİRME MERKEZİ İÇİN 2 KISIM BÜRO MALZEMESİ VE SOYUNMA ODASI MOBİLYA ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/402821",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Tıbbi Malzeme ve Cihaz"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/321977",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Kedi Kısırlaştırma Merkezine Malzeme Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/329020",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT KADIN KOOPERATİFLERİ ÜRETEREK KARSIN EKONOMİSİNE KATKI SUNUYOR PROJESİ KAPSAMINDA MAL ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/316020",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT İNŞAAT MALZEMELERİ ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/395281",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 2026 YILI PNÖMATİK MANTAR BARİYER SİSTEMLERİNİN TEMİNİ VE BAKIM ONARIMLARININ YAPTIRILMASINA YÖNELİK MAL ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/365345",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Tarımsal ve Veterinerlik Hizmetleri Kapsamında Tıbbi Malzeme, Tıbbi Cihaz, İlaç ve Biyosidal İlaç Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/300503",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 1584 Kalem Basılı Kitap"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/233643",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT KOLTUK DÖŞEME ATÖLYESİNE 5 KALEM TEKLİ MİSAFİR KOLTUĞU MALZEMESİ SATIN ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/259668",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Alüminyum, PVC, Cam, Asma Tavan Malzemeleri ve Aksesuarları Mal Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/128129",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Bakım Onarım Çalışmalarında Kullanılmak Üzere Marangoz Atölyesi Malzeme Alımı İşi"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/258888",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Kırtasiye Malzemeleri Alımı İşi"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/360121",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT KIRTASİYE MALZEMELERİ ALIM İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/410661",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Bayraklı Belediyesi Şantiye Ekiplerince Kullanılmak Üzere Elektrik ve Hırdavat Malzemeleri Alınması İşi"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/214258",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 277 Kalem Sarf Mal/Malzeme Alımı İşi"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/311004",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Kdz Ereğli Belediyesi Temizlik İşleri Müdürlüğü Muhtelif Malzeme , Mevsimlik, Çiçek , Yazılım ve Depolama Cihazı"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/237122",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT İstanbul İli Şehit Yakınları ve Gaziler İçin Sosyal Projeler Kapsamında Mal"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/398012",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT iş Kıyafeti Alımı İşi"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/110422",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 2026 Yılı Muhtelif Nalbur, Elektrik, Boya ve Mdf Malzemeleri"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/157374",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 7 KISIM MAL VE MALZEME ALIM İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/303160",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Belediyemiz Birimlerinde Kullanılmak Üzere Temizlik Malzemeleri Alımı İşi"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/327651",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Temizlik Malzemeleri Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/264882",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 30 ADET BİLGİSAYAR VE GRAFİK İŞLEMCİ SUNUCUSU VE BİLEŞENLERİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/326037",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 2026 yılı belediyemiz müdürlükleri ihtiyacı olan temizlik malzemeleri alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/373823",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT BELEDİYEMİZ SOSYAL TESİSLERİ (GÜMÜŞ RESTORAN, BUHARA RESTORAN)  ,AŞEVLERİ (AKÇABURGAZ, KIRAÇ VE YILDIZ CAMİİ) MOBİLYA ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/399218",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 3 Kalem Muhtelif ölçü, renk ve adetlerde suntalam"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/372482",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT ENDÜSTRİYEL MUTFAK MALZEMELERİ VE MOBİLYA ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/423440",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 2026 YILI KENT MOBİLYALARI ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/277068",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT MUHTELİF TÜR VE MİKTARLARDA BEYAZ EŞYA, FIRIN, ÇAY MAKİNESİ, ELEKTRİKLİ SÜPÜRGE, HALI, SEDİR VE PROFİL DEMİR ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:14:41.238902+03:00",
+      "ikn": "2026/397346",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT MUHTELİF PARK MALZEMELERİ MAL ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/340593",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT SPOR MALZEMELERİ ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/228374",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 2026 YILI SPOR MALZEMELERİ VE EKİPMANLARI MAL ALIM İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/102163",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 10 KALEM TIBBİ CİHAZ ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/226181",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT SPOR MALZEMESİ ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/315199",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT ÇATILI PİKNİK MASASI, TABELA, ÇOCUK OYUN PARKI VE GİRİŞ TAKI ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/251282",
+      "event_type": "reported",
+      "summary": "STRONG_CANDIDATE Payas Stem Yapay Zeka Merkezi Ofis Mobilyaları"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/331814",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Hastanemiz Geneli 33 Kalem Marangoz Atölyesine Malzeme Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/359430",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Çatılı Ahşap Piknik Masası ve Döküm Ayaklı Bank Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/279565",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT BALÇOVA BELEDİYESİ 2026 YILI 7 KISIM MUHTELİF MAL VE MALZEME ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/250581",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 311  Kalem Elektrik,Tesisat ve Hırdavat Malzeme Alımı İşi"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/324894",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Engelsiz Gelecek Atölyeleri Projesi  Malzeme Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/285804",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT KAMELYA, PİKNİK MASASI, SIRTLIKLI VE SIRTLIKSIZ BANK ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/246349",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Yemek Masası ve Sıra Tablası Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/268184",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Makine, Ekipman ve Atölye Yardımcı Malzemeleri Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/297583",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Park Malzemeleri Alım İşi"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/295206",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT SOKAK HAYVANLARI İÇİN TIBBİ CİHAZ VE ALET ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/295270",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT SAHİPSİZ HAYVAN BAKIM VE REHABİLİTASYON MERKEZİ İÇİN VETERİNER TIBBİ CİHAZ ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/259210",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Payas Stem Yapay Zeka Merkezine Atölye ve Laboratuvar Malzemeleri"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/280042",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Kayseri Adli Tıp Grup Başkanlığı Morg İhtisas Dairesine Muhtelif Cihaz ve Demirbaş Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/319171",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT ELEKTRİK, HIRDAVAT VE TESİSAT MALZEMESİ ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/345756",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 39 KALEM SAĞLIKLI HAYAT MERKEZLERİ İÇİN CİHAZ VE MALZEME  ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/349884",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 3 KALEM TIBBİ MALZEME VE 68 KALEM AVADANLIK YEDEK PARÇA ALIM İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/246127",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 117 KALEM AVADANLIK VE YEDEK PARÇA MALZEMESİ ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/338946",
+      "event_type": "reported",
+      "summary": "STRONG_CANDIDATE GENÇLİK MERKEZİ MOBİLYA  (MONTAJ DAHİL)"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/318097",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT MUHTELİF BAYRAK ALIM İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/314436",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 2026 Yılı Kent Mobilyaları, Çevre Düzenleme ve Oyun Grubu Malzemeleri Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/327684",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Ses ve Işık Sistemi"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/356152",
+      "event_type": "reported",
+      "summary": "WATCH VAN İLİ MURADİYE İLÇESİ KÜLTÜR MERKEZİ TEFRİŞAT MALZEMESİ ALIM İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/279162",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT KENT DONATI ELAMANLARI"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/317822",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT TIBBİ MALZEME YEDEK PARÇA ALIM İHALESİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/394486",
+      "event_type": "reported",
+      "summary": "ACTION SELÇUKLU SPORCU SEÇME VE YETİŞTİRME MERKEZİ İÇİN 2 KISIM BÜRO MALZEMESİ VE SOYUNMA ODASI MOBİLYA ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/402821",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Tıbbi Malzeme ve Cihaz"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/321977",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Kedi Kısırlaştırma Merkezine Malzeme Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/329020",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT KADIN KOOPERATİFLERİ ÜRETEREK KARSIN EKONOMİSİNE KATKI SUNUYOR PROJESİ KAPSAMINDA MAL ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/316020",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT İNŞAAT MALZEMELERİ ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/395281",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 2026 YILI PNÖMATİK MANTAR BARİYER SİSTEMLERİNİN TEMİNİ VE BAKIM ONARIMLARININ YAPTIRILMASINA YÖNELİK MAL ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/365345",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Tarımsal ve Veterinerlik Hizmetleri Kapsamında Tıbbi Malzeme, Tıbbi Cihaz, İlaç ve Biyosidal İlaç Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/300503",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 1584 Kalem Basılı Kitap"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/233643",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT KOLTUK DÖŞEME ATÖLYESİNE 5 KALEM TEKLİ MİSAFİR KOLTUĞU MALZEMESİ SATIN ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/259668",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Alüminyum, PVC, Cam, Asma Tavan Malzemeleri ve Aksesuarları Mal Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/128129",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Bakım Onarım Çalışmalarında Kullanılmak Üzere Marangoz Atölyesi Malzeme Alımı İşi"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/258888",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Kırtasiye Malzemeleri Alımı İşi"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/360121",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT KIRTASİYE MALZEMELERİ ALIM İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/410661",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Bayraklı Belediyesi Şantiye Ekiplerince Kullanılmak Üzere Elektrik ve Hırdavat Malzemeleri Alınması İşi"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/214258",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 277 Kalem Sarf Mal/Malzeme Alımı İşi"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/311004",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Kdz Ereğli Belediyesi Temizlik İşleri Müdürlüğü Muhtelif Malzeme , Mevsimlik, Çiçek , Yazılım ve Depolama Cihazı"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/237122",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT İstanbul İli Şehit Yakınları ve Gaziler İçin Sosyal Projeler Kapsamında Mal"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/398012",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT iş Kıyafeti Alımı İşi"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/110422",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 2026 Yılı Muhtelif Nalbur, Elektrik, Boya ve Mdf Malzemeleri"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/157374",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 7 KISIM MAL VE MALZEME ALIM İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/303160",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Belediyemiz Birimlerinde Kullanılmak Üzere Temizlik Malzemeleri Alımı İşi"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/327651",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Temizlik Malzemeleri Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/264882",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 30 ADET BİLGİSAYAR VE GRAFİK İŞLEMCİ SUNUCUSU VE BİLEŞENLERİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/326037",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 2026 yılı belediyemiz müdürlükleri ihtiyacı olan temizlik malzemeleri alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/373823",
+      "event_type": "reported",
+      "summary": "WATCH BELEDİYEMİZ SOSYAL TESİSLERİ (GÜMÜŞ RESTORAN, BUHARA RESTORAN)  ,AŞEVLERİ (AKÇABURGAZ, KIRAÇ VE YILDIZ CAMİİ) MOBİLYA ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/399218",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 3 Kalem Muhtelif ölçü, renk ve adetlerde suntalam"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/372482",
+      "event_type": "reported",
+      "summary": "WATCH ENDÜSTRİYEL MUTFAK MALZEMELERİ VE MOBİLYA ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/423440",
+      "event_type": "reported",
+      "summary": "WATCH 2026 YILI KENT MOBİLYALARI ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/277068",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT MUHTELİF TÜR VE MİKTARLARDA BEYAZ EŞYA, FIRIN, ÇAY MAKİNESİ, ELEKTRİKLİ SÜPÜRGE, HALI, SEDİR VE PROFİL DEMİR ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:24:08.866697+03:00",
+      "ikn": "2026/397346",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT MUHTELİF PARK MALZEMELERİ MAL ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/340593",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT SPOR MALZEMELERİ ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/228374",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 2026 YILI SPOR MALZEMELERİ VE EKİPMANLARI MAL ALIM İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/102163",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 10 KALEM TIBBİ CİHAZ ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/226181",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT SPOR MALZEMESİ ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/315199",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT ÇATILI PİKNİK MASASI, TABELA, ÇOCUK OYUN PARKI VE GİRİŞ TAKI ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/251282",
+      "event_type": "reported",
+      "summary": "STRONG_CANDIDATE Payas Stem Yapay Zeka Merkezi Ofis Mobilyaları"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/331814",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Hastanemiz Geneli 33 Kalem Marangoz Atölyesine Malzeme Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/359430",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Çatılı Ahşap Piknik Masası ve Döküm Ayaklı Bank Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/279565",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT BALÇOVA BELEDİYESİ 2026 YILI 7 KISIM MUHTELİF MAL VE MALZEME ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/250581",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 311  Kalem Elektrik,Tesisat ve Hırdavat Malzeme Alımı İşi"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/324894",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Engelsiz Gelecek Atölyeleri Projesi  Malzeme Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/285804",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT KAMELYA, PİKNİK MASASI, SIRTLIKLI VE SIRTLIKSIZ BANK ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/246349",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Yemek Masası ve Sıra Tablası Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/268184",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Makine, Ekipman ve Atölye Yardımcı Malzemeleri Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/297583",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Park Malzemeleri Alım İşi"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/295206",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT SOKAK HAYVANLARI İÇİN TIBBİ CİHAZ VE ALET ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/295270",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT SAHİPSİZ HAYVAN BAKIM VE REHABİLİTASYON MERKEZİ İÇİN VETERİNER TIBBİ CİHAZ ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/259210",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Payas Stem Yapay Zeka Merkezine Atölye ve Laboratuvar Malzemeleri"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/280042",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Kayseri Adli Tıp Grup Başkanlığı Morg İhtisas Dairesine Muhtelif Cihaz ve Demirbaş Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/319171",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT ELEKTRİK, HIRDAVAT VE TESİSAT MALZEMESİ ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/345756",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 39 KALEM SAĞLIKLI HAYAT MERKEZLERİ İÇİN CİHAZ VE MALZEME  ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/349884",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 3 KALEM TIBBİ MALZEME VE 68 KALEM AVADANLIK YEDEK PARÇA ALIM İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/246127",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 117 KALEM AVADANLIK VE YEDEK PARÇA MALZEMESİ ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/338946",
+      "event_type": "suppressed",
+      "summary": "STRONG_CANDIDATE GENÇLİK MERKEZİ MOBİLYA  (MONTAJ DAHİL)"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/318097",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT MUHTELİF BAYRAK ALIM İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/314436",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 2026 Yılı Kent Mobilyaları, Çevre Düzenleme ve Oyun Grubu Malzemeleri Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/327684",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Ses ve Işık Sistemi"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/356152",
+      "event_type": "suppressed",
+      "summary": "WATCH VAN İLİ MURADİYE İLÇESİ KÜLTÜR MERKEZİ TEFRİŞAT MALZEMESİ ALIM İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/279162",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT KENT DONATI ELAMANLARI"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/317822",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT TIBBİ MALZEME YEDEK PARÇA ALIM İHALESİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/394486",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT SELÇUKLU SPORCU SEÇME VE YETİŞTİRME MERKEZİ İÇİN 2 KISIM BÜRO MALZEMESİ VE SOYUNMA ODASI MOBİLYA ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/402821",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Tıbbi Malzeme ve Cihaz"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/321977",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Kedi Kısırlaştırma Merkezine Malzeme Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/329020",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT KADIN KOOPERATİFLERİ ÜRETEREK KARSIN EKONOMİSİNE KATKI SUNUYOR PROJESİ KAPSAMINDA MAL ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/316020",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT İNŞAAT MALZEMELERİ ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/395281",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 2026 YILI PNÖMATİK MANTAR BARİYER SİSTEMLERİNİN TEMİNİ VE BAKIM ONARIMLARININ YAPTIRILMASINA YÖNELİK MAL ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/365345",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Tarımsal ve Veterinerlik Hizmetleri Kapsamında Tıbbi Malzeme, Tıbbi Cihaz, İlaç ve Biyosidal İlaç Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/300503",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 1584 Kalem Basılı Kitap"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/233643",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT KOLTUK DÖŞEME ATÖLYESİNE 5 KALEM TEKLİ MİSAFİR KOLTUĞU MALZEMESİ SATIN ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/259668",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Alüminyum, PVC, Cam, Asma Tavan Malzemeleri ve Aksesuarları Mal Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/128129",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Bakım Onarım Çalışmalarında Kullanılmak Üzere Marangoz Atölyesi Malzeme Alımı İşi"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/258888",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Kırtasiye Malzemeleri Alımı İşi"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/360121",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT KIRTASİYE MALZEMELERİ ALIM İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/410661",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Bayraklı Belediyesi Şantiye Ekiplerince Kullanılmak Üzere Elektrik ve Hırdavat Malzemeleri Alınması İşi"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/214258",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 277 Kalem Sarf Mal/Malzeme Alımı İşi"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/311004",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Kdz Ereğli Belediyesi Temizlik İşleri Müdürlüğü Muhtelif Malzeme , Mevsimlik, Çiçek , Yazılım ve Depolama Cihazı"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/237122",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT İstanbul İli Şehit Yakınları ve Gaziler İçin Sosyal Projeler Kapsamında Mal"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/398012",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT iş Kıyafeti Alımı İşi"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/110422",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 2026 Yılı Muhtelif Nalbur, Elektrik, Boya ve Mdf Malzemeleri"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/157374",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 7 KISIM MAL VE MALZEME ALIM İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/303160",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Belediyemiz Birimlerinde Kullanılmak Üzere Temizlik Malzemeleri Alımı İşi"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/327651",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Temizlik Malzemeleri Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/264882",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 30 ADET BİLGİSAYAR VE GRAFİK İŞLEMCİ SUNUCUSU VE BİLEŞENLERİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/326037",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 2026 yılı belediyemiz müdürlükleri ihtiyacı olan temizlik malzemeleri alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/373823",
+      "event_type": "suppressed",
+      "summary": "WATCH BELEDİYEMİZ SOSYAL TESİSLERİ (GÜMÜŞ RESTORAN, BUHARA RESTORAN)  ,AŞEVLERİ (AKÇABURGAZ, KIRAÇ VE YILDIZ CAMİİ) MOBİLYA ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/399218",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 3 Kalem Muhtelif ölçü, renk ve adetlerde suntalam"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/372482",
+      "event_type": "suppressed",
+      "summary": "WATCH ENDÜSTRİYEL MUTFAK MALZEMELERİ VE MOBİLYA ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/423440",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 2026 YILI KENT MOBİLYALARI ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/277068",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT MUHTELİF TÜR VE MİKTARLARDA BEYAZ EŞYA, FIRIN, ÇAY MAKİNESİ, ELEKTRİKLİ SÜPÜRGE, HALI, SEDİR VE PROFİL DEMİR ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:34:40.700175+03:00",
+      "ikn": "2026/397346",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT MUHTELİF PARK MALZEMELERİ MAL ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/340593",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT SPOR MALZEMELERİ ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/228374",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 2026 YILI SPOR MALZEMELERİ VE EKİPMANLARI MAL ALIM İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/102163",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 10 KALEM TIBBİ CİHAZ ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/226181",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT SPOR MALZEMESİ ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/315199",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT ÇATILI PİKNİK MASASI, TABELA, ÇOCUK OYUN PARKI VE GİRİŞ TAKI ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/251282",
+      "event_type": "reported",
+      "summary": "STRONG_CANDIDATE Payas Stem Yapay Zeka Merkezi Ofis Mobilyaları"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/331814",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Hastanemiz Geneli 33 Kalem Marangoz Atölyesine Malzeme Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/359430",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Çatılı Ahşap Piknik Masası ve Döküm Ayaklı Bank Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/279565",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT BALÇOVA BELEDİYESİ 2026 YILI 7 KISIM MUHTELİF MAL VE MALZEME ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/250581",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 311  Kalem Elektrik,Tesisat ve Hırdavat Malzeme Alımı İşi"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/324894",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Engelsiz Gelecek Atölyeleri Projesi  Malzeme Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/285804",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT KAMELYA, PİKNİK MASASI, SIRTLIKLI VE SIRTLIKSIZ BANK ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/246349",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Yemek Masası ve Sıra Tablası Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/268184",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Makine, Ekipman ve Atölye Yardımcı Malzemeleri Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/297583",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Park Malzemeleri Alım İşi"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/295206",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT SOKAK HAYVANLARI İÇİN TIBBİ CİHAZ VE ALET ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/295270",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT SAHİPSİZ HAYVAN BAKIM VE REHABİLİTASYON MERKEZİ İÇİN VETERİNER TIBBİ CİHAZ ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/259210",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Payas Stem Yapay Zeka Merkezine Atölye ve Laboratuvar Malzemeleri"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/280042",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Kayseri Adli Tıp Grup Başkanlığı Morg İhtisas Dairesine Muhtelif Cihaz ve Demirbaş Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/319171",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT ELEKTRİK, HIRDAVAT VE TESİSAT MALZEMESİ ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/345756",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 39 KALEM SAĞLIKLI HAYAT MERKEZLERİ İÇİN CİHAZ VE MALZEME  ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/349884",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 3 KALEM TIBBİ MALZEME VE 68 KALEM AVADANLIK YEDEK PARÇA ALIM İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/246127",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 117 KALEM AVADANLIK VE YEDEK PARÇA MALZEMESİ ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/338946",
+      "event_type": "suppressed",
+      "summary": "STRONG_CANDIDATE GENÇLİK MERKEZİ MOBİLYA  (MONTAJ DAHİL)"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/318097",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT MUHTELİF BAYRAK ALIM İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/314436",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 2026 Yılı Kent Mobilyaları, Çevre Düzenleme ve Oyun Grubu Malzemeleri Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/327684",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Ses ve Işık Sistemi"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/356152",
+      "event_type": "suppressed",
+      "summary": "WATCH VAN İLİ MURADİYE İLÇESİ KÜLTÜR MERKEZİ TEFRİŞAT MALZEMESİ ALIM İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/279162",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT KENT DONATI ELAMANLARI"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/317822",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT TIBBİ MALZEME YEDEK PARÇA ALIM İHALESİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/394486",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT SELÇUKLU SPORCU SEÇME VE YETİŞTİRME MERKEZİ İÇİN 2 KISIM BÜRO MALZEMESİ VE SOYUNMA ODASI MOBİLYA ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/402821",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Tıbbi Malzeme ve Cihaz"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/321977",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Kedi Kısırlaştırma Merkezine Malzeme Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/329020",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT KADIN KOOPERATİFLERİ ÜRETEREK KARSIN EKONOMİSİNE KATKI SUNUYOR PROJESİ KAPSAMINDA MAL ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/316020",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT İNŞAAT MALZEMELERİ ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/395281",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 2026 YILI PNÖMATİK MANTAR BARİYER SİSTEMLERİNİN TEMİNİ VE BAKIM ONARIMLARININ YAPTIRILMASINA YÖNELİK MAL ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/365345",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Tarımsal ve Veterinerlik Hizmetleri Kapsamında Tıbbi Malzeme, Tıbbi Cihaz, İlaç ve Biyosidal İlaç Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/300503",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 1584 Kalem Basılı Kitap"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/233643",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT KOLTUK DÖŞEME ATÖLYESİNE 5 KALEM TEKLİ MİSAFİR KOLTUĞU MALZEMESİ SATIN ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/259668",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Alüminyum, PVC, Cam, Asma Tavan Malzemeleri ve Aksesuarları Mal Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/128129",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Bakım Onarım Çalışmalarında Kullanılmak Üzere Marangoz Atölyesi Malzeme Alımı İşi"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/258888",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Kırtasiye Malzemeleri Alımı İşi"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/360121",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT KIRTASİYE MALZEMELERİ ALIM İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/410661",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Bayraklı Belediyesi Şantiye Ekiplerince Kullanılmak Üzere Elektrik ve Hırdavat Malzemeleri Alınması İşi"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/214258",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 277 Kalem Sarf Mal/Malzeme Alımı İşi"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/311004",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Kdz Ereğli Belediyesi Temizlik İşleri Müdürlüğü Muhtelif Malzeme , Mevsimlik, Çiçek , Yazılım ve Depolama Cihazı"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/237122",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT İstanbul İli Şehit Yakınları ve Gaziler İçin Sosyal Projeler Kapsamında Mal"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/398012",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT iş Kıyafeti Alımı İşi"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/110422",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 2026 Yılı Muhtelif Nalbur, Elektrik, Boya ve Mdf Malzemeleri"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/157374",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 7 KISIM MAL VE MALZEME ALIM İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/303160",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Belediyemiz Birimlerinde Kullanılmak Üzere Temizlik Malzemeleri Alımı İşi"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/327651",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Temizlik Malzemeleri Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/264882",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 30 ADET BİLGİSAYAR VE GRAFİK İŞLEMCİ SUNUCUSU VE BİLEŞENLERİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/326037",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 2026 yılı belediyemiz müdürlükleri ihtiyacı olan temizlik malzemeleri alımı"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/373823",
+      "event_type": "suppressed",
+      "summary": "WATCH BELEDİYEMİZ SOSYAL TESİSLERİ (GÜMÜŞ RESTORAN, BUHARA RESTORAN)  ,AŞEVLERİ (AKÇABURGAZ, KIRAÇ VE YILDIZ CAMİİ) MOBİLYA ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/399218",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 3 Kalem Muhtelif ölçü, renk ve adetlerde suntalam"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/372482",
+      "event_type": "suppressed",
+      "summary": "WATCH ENDÜSTRİYEL MUTFAK MALZEMELERİ VE MOBİLYA ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/423440",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 2026 YILI KENT MOBİLYALARI ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/277068",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT MUHTELİF TÜR VE MİKTARLARDA BEYAZ EŞYA, FIRIN, ÇAY MAKİNESİ, ELEKTRİKLİ SÜPÜRGE, HALI, SEDİR VE PROFİL DEMİR ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T00:37:34.363487+03:00",
+      "ikn": "2026/397346",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT MUHTELİF PARK MALZEMELERİ MAL ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/340593",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT SPOR MALZEMELERİ ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/228374",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 2026 YILI SPOR MALZEMELERİ VE EKİPMANLARI MAL ALIM İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/102163",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 10 KALEM TIBBİ CİHAZ ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/226181",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT SPOR MALZEMESİ ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/315199",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT ÇATILI PİKNİK MASASI, TABELA, ÇOCUK OYUN PARKI VE GİRİŞ TAKI ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/251282",
+      "event_type": "reported",
+      "summary": "STRONG_CANDIDATE Payas Stem Yapay Zeka Merkezi Ofis Mobilyaları"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/331814",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Hastanemiz Geneli 33 Kalem Marangoz Atölyesine Malzeme Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/359430",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Çatılı Ahşap Piknik Masası ve Döküm Ayaklı Bank Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/279565",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT BALÇOVA BELEDİYESİ 2026 YILI 7 KISIM MUHTELİF MAL VE MALZEME ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/250581",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 311  Kalem Elektrik,Tesisat ve Hırdavat Malzeme Alımı İşi"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/324894",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Engelsiz Gelecek Atölyeleri Projesi  Malzeme Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/285804",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT KAMELYA, PİKNİK MASASI, SIRTLIKLI VE SIRTLIKSIZ BANK ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/246349",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Yemek Masası ve Sıra Tablası Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/268184",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Makine, Ekipman ve Atölye Yardımcı Malzemeleri Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/297583",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Park Malzemeleri Alım İşi"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/295206",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT SOKAK HAYVANLARI İÇİN TIBBİ CİHAZ VE ALET ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/295270",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT SAHİPSİZ HAYVAN BAKIM VE REHABİLİTASYON MERKEZİ İÇİN VETERİNER TIBBİ CİHAZ ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/259210",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Payas Stem Yapay Zeka Merkezine Atölye ve Laboratuvar Malzemeleri"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/280042",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Kayseri Adli Tıp Grup Başkanlığı Morg İhtisas Dairesine Muhtelif Cihaz ve Demirbaş Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/319171",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT ELEKTRİK, HIRDAVAT VE TESİSAT MALZEMESİ ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/345756",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 39 KALEM SAĞLIKLI HAYAT MERKEZLERİ İÇİN CİHAZ VE MALZEME  ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/349884",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 3 KALEM TIBBİ MALZEME VE 68 KALEM AVADANLIK YEDEK PARÇA ALIM İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/246127",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 117 KALEM AVADANLIK VE YEDEK PARÇA MALZEMESİ ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/338946",
+      "event_type": "suppressed",
+      "summary": "STRONG_CANDIDATE GENÇLİK MERKEZİ MOBİLYA  (MONTAJ DAHİL)"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/318097",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT MUHTELİF BAYRAK ALIM İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/314436",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 2026 Yılı Kent Mobilyaları, Çevre Düzenleme ve Oyun Grubu Malzemeleri Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/327684",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Ses ve Işık Sistemi"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/356152",
+      "event_type": "suppressed",
+      "summary": "WATCH VAN İLİ MURADİYE İLÇESİ KÜLTÜR MERKEZİ TEFRİŞAT MALZEMESİ ALIM İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/279162",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT KENT DONATI ELAMANLARI"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/317822",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT TIBBİ MALZEME YEDEK PARÇA ALIM İHALESİ"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/394486",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT SELÇUKLU SPORCU SEÇME VE YETİŞTİRME MERKEZİ İÇİN 2 KISIM BÜRO MALZEMESİ VE SOYUNMA ODASI MOBİLYA ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/402821",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Tıbbi Malzeme ve Cihaz"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/321977",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Kedi Kısırlaştırma Merkezine Malzeme Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/329020",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT KADIN KOOPERATİFLERİ ÜRETEREK KARSIN EKONOMİSİNE KATKI SUNUYOR PROJESİ KAPSAMINDA MAL ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/316020",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT İNŞAAT MALZEMELERİ ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/395281",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 2026 YILI PNÖMATİK MANTAR BARİYER SİSTEMLERİNİN TEMİNİ VE BAKIM ONARIMLARININ YAPTIRILMASINA YÖNELİK MAL ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/365345",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Tarımsal ve Veterinerlik Hizmetleri Kapsamında Tıbbi Malzeme, Tıbbi Cihaz, İlaç ve Biyosidal İlaç Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/300503",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 1584 Kalem Basılı Kitap"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/233643",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT KOLTUK DÖŞEME ATÖLYESİNE 5 KALEM TEKLİ MİSAFİR KOLTUĞU MALZEMESİ SATIN ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/259668",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Alüminyum, PVC, Cam, Asma Tavan Malzemeleri ve Aksesuarları Mal Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/128129",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Bakım Onarım Çalışmalarında Kullanılmak Üzere Marangoz Atölyesi Malzeme Alımı İşi"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/258888",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Kırtasiye Malzemeleri Alımı İşi"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/360121",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT KIRTASİYE MALZEMELERİ ALIM İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/410661",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Bayraklı Belediyesi Şantiye Ekiplerince Kullanılmak Üzere Elektrik ve Hırdavat Malzemeleri Alınması İşi"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/214258",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 277 Kalem Sarf Mal/Malzeme Alımı İşi"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/311004",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT Kdz Ereğli Belediyesi Temizlik İşleri Müdürlüğü Muhtelif Malzeme , Mevsimlik, Çiçek , Yazılım ve Depolama Cihazı"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/237122",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT İstanbul İli Şehit Yakınları ve Gaziler İçin Sosyal Projeler Kapsamında Mal"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/398012",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT iş Kıyafeti Alımı İşi"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/110422",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 2026 Yılı Muhtelif Nalbur, Elektrik, Boya ve Mdf Malzemeleri"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/157374",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT 7 KISIM MAL VE MALZEME ALIM İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/303160",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Belediyemiz Birimlerinde Kullanılmak Üzere Temizlik Malzemeleri Alımı İşi"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/327651",
+      "event_type": "reported",
+      "summary": "SILENT_REJECT Temizlik Malzemeleri Alımı"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/264882",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 30 ADET BİLGİSAYAR VE GRAFİK İŞLEMCİ SUNUCUSU VE BİLEŞENLERİ"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/326037",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 2026 yılı belediyemiz müdürlükleri ihtiyacı olan temizlik malzemeleri alımı"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/373823",
+      "event_type": "suppressed",
+      "summary": "WATCH BELEDİYEMİZ SOSYAL TESİSLERİ (GÜMÜŞ RESTORAN, BUHARA RESTORAN)  ,AŞEVLERİ (AKÇABURGAZ, KIRAÇ VE YILDIZ CAMİİ) MOBİLYA ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/399218",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 3 Kalem Muhtelif ölçü, renk ve adetlerde suntalam"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/372482",
+      "event_type": "suppressed",
+      "summary": "WATCH ENDÜSTRİYEL MUTFAK MALZEMELERİ VE MOBİLYA ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/423440",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT 2026 YILI KENT MOBİLYALARI ALIMI İŞİ"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/277068",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT MUHTELİF TÜR VE MİKTARLARDA BEYAZ EŞYA, FIRIN, ÇAY MAKİNESİ, ELEKTRİKLİ SÜPÜRGE, HALI, SEDİR VE PROFİL DEMİR ALIMI"
+    },
+    {
+      "timestamp": "2026-03-09T08:30:08.560268+03:00",
+      "ikn": "2026/397346",
+      "event_type": "suppressed",
+      "summary": "SILENT_REJECT MUHTELİF PARK MALZEMELERİ MAL ALIMI İŞİ"
+    }
+  ],
+  "updated_at": "2026-03-09T08:30:08.560268+03:00"
+}

@@ -1,0 +1,19 @@
+{
+  "tenders": [],
+  "total_count": 0,
+  "returned_count": 0,
+  "search_params": {
+    "search_text": "otel mobilya",
+    "ikn_year": null,
+    "ikn_number": null,
+    "tender_types": [
+      1
+    ],
+    "date_range": {
+      "tender_start": "2026-03-09",
+      "tender_end": null,
+      "announcement_start": null,
+      "announcement_end": null
+    }
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "tenders": [
+    {
+      "id": "3bf9dd03afc5e12ad3b6d7440f79d3fe61b6bed686db506a1ca00fe9c922d8dc",
+      "name": "Hastanemiz  ve Ek Hizmet Binalarımızda Kullanılmak Üzere Mefruşat  Alımı",
+      "ikn": "2026/242741",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "Eğitim ve Araştırma Hastanesi- Gaziosmanpaşa  SAĞLIK BAKANLIĞI BAKAN YARDIMCILIKLARI",
+      "province": "İSTANBUL",
+      "tender_datetime": "09.03.2026 10:30",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "b622f694c348a0bb098d5f3b314a3c75241d1957ecd3a2517c7de220ce0dffdc",
+      "name": "HASTANEMİZ GENELİ 64 KALEM KIRTASİYE VE MEFRUŞAT MALZEME ALIMI",
+      "ikn": "2026/202850",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "İSTANBUL EĞİTİM VE ARAŞTIRMA HASTANESİ BAŞHEKİMLİĞİ",
+      "province": "İSTANBUL",
+      "tender_datetime": "09.03.2026 11:00",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "ddc45094d4178d5fa6aa6018e3f664c12be424cb4eb78373e3add16a67e05ded",
+      "name": "Belediyemiz Birimlerinde Kullanılmak Üzere Temizlik Malzemeleri Alımı İşi",
+      "ikn": "2026/303160",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "MANİSA BÜYÜKŞEHİR BELEDİYESİ DESTEK HİZMETLERİ DAİRESİ BAŞKANLIĞI",
+      "province": "MANİSA",
+      "tender_datetime": "10.03.2026 10:30",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "f097d8431353ccd73a60028086f54d395e2706e6e8c44adb48384a56fd4c9c2e",
+      "name": "Temizlik Malzemeleri Alımı",
+      "ikn": "2026/327651",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "ERBAA BELEDİYE BAŞKANLIĞI - DESTEK HİZMETLERİ MÜDÜRLÜĞÜ",
+      "province": "TOKAT",
+      "tender_datetime": "11.03.2026 10:00",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "2f5b9cf8728f3ce14d1cb3c3a2a15ca8eec620074ee3d55730c418ae069a7bfc",
+      "name": "137 Kalem Kırtasiye, Basılı Evrak ,Temizlik Malzemesi, Mefruşat ve Muhtelif Tüketim Malzemeleri Alımı",
+      "ikn": "2026/285437",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "Isparta Şehir Hastanesi SAĞLIK BAKANLIĞI BAKAN YARDIMCILIKLARI",
+      "province": "ISPARTA",
+      "tender_datetime": "13.03.2026 10:00",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "e6d433d88d9daa090505373fa2a46fb24f91b49cfea220a73bf5c7a8efeca51f",
+      "name": "8 KALEM TIBBİ SARF  VE CESET TORBASI MALZEME ALIMI",
+      "ikn": "2026/224856",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "SAĞLIK BAKANLIĞI - ANKARA ETLİK ŞEHİR HASTANESİ BAŞHEKİMLİĞİ",
+      "province": "ANKARA",
+      "tender_datetime": "13.03.2026 10:30",
+      "document_count": 1,
+      "has_announcement": true,
+      "document_url": "https://ekap.kik.gov.tr/EKAP/Ortak/VatandasIlanGoruntuleme.aspx?ddac=true&aramaDownload=true&ihaleId=7b47b921f8b71175a4cef448de7650209abc67529dd2650753250b1755011514&wots=false&Iszylnm=false"
+    },
+    {
+      "id": "5fe43a796081fdb23471215abb30c123ce9674e610fdb7b6ca84acf5a80e107c",
+      "name": "2026 yılı belediyemiz müdürlükleri ihtiyacı olan temizlik malzemeleri alımı",
+      "ikn": "2026/326037",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "AKDENİZ BELEDİYESİ DESTEK HİZMETLERİ MÜDÜRLÜĞÜ",
+      "province": "MERSİN",
+      "tender_datetime": "23.03.2026 14:00",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "8ce9abf1fcadc3172eb35a334ede77733115ffce79c906f968b45fb96202aeb3",
+      "name": "Plastik Cerrahi AD 166 Kalem Cerrahi El Aletleri Alımı",
+      "ikn": "2026/228539",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "Uygulama ve Araştırma Hastanesi YÜKSEKÖĞRETİM KURUMLARI AYDIN ADNAN MENDERES ÜNİVERSİTESİ",
+      "province": "AYDIN",
+      "tender_datetime": "25.03.2026 11:00",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "ae776119862f2042ba91f46371fafb40c2ec136c36edfed792f12f2673c30023",
+      "name": "40 Kalem Temizlik ve Mefruşat Malzeme Alımı",
+      "ikn": "2026/377897",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "İSTANBUL GÖZTEPE PROF. DR. SÜLEYMAN YALÇIN ŞEHİR HASTANESİ BAŞHEKİMLİĞİ",
+      "province": "İSTANBUL",
+      "tender_datetime": "25.03.2026 11:00",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "43f0419ef38f5a15de00b7dfe95d5f407976f72c6e5830ca429ce19bfe23c00f",
+      "name": "331 Kısım Kırtasiye, Basılı, Temizlik, Mefruşat ve Muhtelif Tüketim Malzemeleri Alımı",
+      "ikn": "2026/364104",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "ISPARTA İL SAĞLIK MÜDÜRLÜĞÜ",
+      "province": "ISPARTA",
+      "tender_datetime": "26.03.2026 11:00",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "9e8c6bf9296440b515a803bb260e63b6760b85a6708f4b54e7ec434292157bb3",
+      "name": "2026 MALİ YILI 39 KALEM TEMİZLİK, KIRTASİYE VE MEFRUŞAT MALZEMESİ ALIMI",
+      "ikn": "2026/350286",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "ANKARA EĞİTİM VE ARAŞTIRMA HASTANESİ BAŞHEKİMLİĞİ",
+      "province": "ANKARA",
+      "tender_datetime": "30.03.2026 11:00",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "5396db01bbf7e9b9ecb752cf0e986e6d8877729578bf8762176bca3dd260a786",
+      "name": "2026 YILI TEMİZLİK KIRTASİYE VE MEFRUŞAT MALZEMELERİ ALIMI",
+      "ikn": "2026/361736",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "Eğitim ve Araştırma Hastanesi-Zeynep Kamil Kadın ve Çocuk Hastalıkları SAĞLIK BAKANLIĞI BAKAN YARDIMCILIKLARI",
+      "province": "İSTANBUL",
+      "tender_datetime": "31.03.2026 10:30",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "3aaa5fc8dca26ae930bcabf6f96bce9aca75e5fb08fd595203e3737bdd9cba18",
+      "name": "2 Kalem Dijital Mamografi Sistemi",
+      "ikn": "2026/337351",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "Destek Hizmetleri Daire Başkanlığı DİĞER ÖZEL BÜTÇELİ KURULUŞLAR TÜRKİYE HUDUT VE SAHİLLER SAĞLIK GENEL MÜDÜRLÜĞÜ ",
+      "province": "İSTANBUL",
+      "tender_datetime": "06.04.2026 11:00",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    }
+  ],
+  "total_count": 13,
+  "returned_count": 13,
+  "search_params": {
+    "search_text": "mefruşat",
+    "ikn_year": null,
+    "ikn_number": null,
+    "tender_types": [
+      1
+    ],
+    "date_range": {
+      "tender_start": "2026-03-09",
+      "tender_end": null,
+      "announcement_start": null,
+      "announcement_end": null
+    }
+  }
+}

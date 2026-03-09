@@ -1,0 +1,60 @@
+{
+  "tenders": [
+    {
+      "id": "e28c4f7527f6ff8fcd5eee37166ff40bb398f75984707b8057d12b892d2f160e",
+      "name": "KOLTUK DÖŞEME ATÖLYESİNE 5 KALEM TEKLİ MİSAFİR KOLTUĞU MALZEMESİ SATIN ALIMI",
+      "ikn": "2026/233643",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "ESKİŞEHİR 1 NOLU AÇIK CEZA İNFAZ KURUMU İŞYURDU MÜDÜRLÜĞÜ",
+      "province": "ESKİŞEHİR",
+      "tender_datetime": "10.03.2026 10:00",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    },
+    {
+      "id": "2918996685edb2ef07cfa2ab25e742a863978d9275ec3f35a0dacda2f1681b75",
+      "name": "İNŞAAT MALZEMELERİ ALIMI",
+      "ikn": "2026/316020",
+      "type": {
+        "code": "1",
+        "description": "Mal"
+      },
+      "method": "TENDER_SEARCH.MAIN.PAGEITEM.TENDER_TYPE TENDER_SEARCH.ENUMERATIONS.SEARCH_METHOD.OPEN",
+      "status": {
+        "code": "2",
+        "description": "Tender Announcement Published Open For Participation"
+      },
+      "authority": "KEPEZ BELEDİYESİ PARK VE BAHÇELER MÜDÜRLÜĞÜ",
+      "province": "ANTALYA",
+      "tender_datetime": "24.03.2026 11:00",
+      "document_count": 0,
+      "has_announcement": true,
+      "document_url": null
+    }
+  ],
+  "total_count": 2,
+  "returned_count": 2,
+  "search_params": {
+    "search_text": "büro mobilya",
+    "ikn_year": null,
+    "ikn_number": null,
+    "tender_types": [
+      1
+    ],
+    "date_range": {
+      "tender_start": "2026-03-08",
+      "tender_end": null,
+      "announcement_start": null,
+      "announcement_end": null
+    }
+  }
+}

@@ -1,0 +1,380 @@
+{
+  "version": "2.0.0",
+  "company": "Koç Büro Mobilyaları",
+  "geography": "TR-ALL",
+  "search_strategy": {
+    "description": "Multi-layer search: keyword clusters discover by text, OKAS codes discover by classification, negative filters prune irrelevant results. Each cluster targets a product family or customer segment. Clusters run concurrently; results are deduplicated by IKN before scoring.",
+    "max_results_per_query": 100,
+    "lookback_days": 3,
+    "delta_lookback_hours": 12,
+    "deadline_window_days": 21,
+    "include_recent_pool": true,
+    "concurrent_clusters": true,
+    "dedup_key": "ikn",
+    "tender_type_filter": [1],
+    "tender_type_deprioritize": [2, 4],
+    "default_limit": 30
+  },
+  "keyword_clusters": [
+    {
+      "id": "KC-01",
+      "name": "Genel Büro Mobilyası",
+      "priority": 1,
+      "weight": 1.0,
+      "keywords": [
+        "büro mobilyası",
+        "ofis mobilyası",
+        "büro mobilya alımı",
+        "ofis mobilya alımı",
+        "büro mobilya mal alımı",
+        "ofis mobilya temini",
+        "büro mobilya temini"
+      ]
+    },
+    {
+      "id": "KC-02",
+      "name": "Masa / Çalışma Masası",
+      "priority": 1,
+      "weight": 1.0,
+      "keywords": [
+        "çalışma masası",
+        "büro masası",
+        "ofis masası",
+        "toplantı masası",
+        "personel masası",
+        "yönetici masası",
+        "bilgisayar masası",
+        "L masa",
+        "operasyonel masa",
+        "masa alımı",
+        "masa temini"
+      ]
+    },
+    {
+      "id": "KC-03",
+      "name": "Dolap / Keson / Arşiv",
+      "priority": 1,
+      "weight": 1.0,
+      "keywords": [
+        "dosya dolabı",
+        "evrak dolabı",
+        "keson",
+        "seyyar keson",
+        "arşiv dolabı",
+        "gardırop",
+        "büro dolap",
+        "ofis dolabı",
+        "çelik dolap",
+        "sürgülü dolap",
+        "cam kapaklı dolap",
+        "dolap alımı"
+      ]
+    },
+    {
+      "id": "KC-04",
+      "name": "Koltuk / Sandalye",
+      "priority": 1,
+      "weight": 1.0,
+      "keywords": [
+        "ofis koltuğu",
+        "büro koltuğu",
+        "yönetici koltuğu",
+        "çalışma sandalyesi",
+        "toplantı sandalyesi",
+        "personel koltuğu",
+        "ergonomik koltuk",
+        "döner koltuk",
+        "fileli koltuk",
+        "amortisörlü koltuk",
+        "ofis sandalyesi",
+        "koltuk alımı",
+        "sandalye alımı"
+      ]
+    },
+    {
+      "id": "KC-05",
+      "name": "Kitaplık / Raf Sistemleri",
+      "priority": 2,
+      "weight": 0.8,
+      "keywords": [
+        "kitaplık",
+        "raf sistemi",
+        "ofis kitaplık",
+        "açık raf",
+        "dosya rafı",
+        "kitaplık alımı"
+      ]
+    },
+    {
+      "id": "KC-06",
+      "name": "Panel / Bölme / Seperatör",
+      "priority": 2,
+      "weight": 0.8,
+      "keywords": [
+        "panel bölme",
+        "ofis bölme",
+        "seperatör",
+        "paravan",
+        "açık ofis bölme sistemi",
+        "workstation bölme",
+        "akustik panel",
+        "ofis bölme sistemi"
+      ]
+    },
+    {
+      "id": "KC-07",
+      "name": "Banko / Danışma / Resepsiyon",
+      "priority": 2,
+      "weight": 0.8,
+      "keywords": [
+        "banko",
+        "danışma bankosu",
+        "resepsiyon bankosu",
+        "danışma ünitesi",
+        "karşılama bankosu",
+        "vezne bankosu",
+        "güvenlik bankosu",
+        "banko alımı"
+      ]
+    },
+    {
+      "id": "KC-08",
+      "name": "Bekleme / Oturma Grupları",
+      "priority": 2,
+      "weight": 0.8,
+      "keywords": [
+        "bekleme koltuğu",
+        "bekleme grubu",
+        "oturma grubu",
+        "lobi koltuğu",
+        "kanepe",
+        "misafir koltuğu",
+        "bekleme salonu mobilya",
+        "ikili bekleme",
+        "üçlü bekleme"
+      ]
+    },
+    {
+      "id": "KC-09",
+      "name": "Yönetici / Ofis Takımları",
+      "priority": 1,
+      "weight": 1.0,
+      "keywords": [
+        "yönetici takımı",
+        "ofis takımı",
+        "makam takımı",
+        "makam odası",
+        "yönetici odası mobilya",
+        "müdür odası",
+        "genel müdür takımı",
+        "makam mobilyası"
+      ]
+    },
+    {
+      "id": "KC-10",
+      "name": "Kurum Mobilya İhaleleri",
+      "priority": 2,
+      "weight": 0.45,
+      "keywords": [
+        "mobilya mal alımı",
+        "mobilya alımı ihalesi",
+        "mobilya temini",
+        "mefruşat alımı",
+        "döşeme mobilya",
+        "mobilya ve donatım",
+        "donatım malzemesi alımı",
+        "muhtelif mobilya alımı"
+      ]
+    },
+    {
+      "id": "KC-11",
+      "name": "Konferans / Toplantı",
+      "priority": 2,
+      "weight": 0.8,
+      "keywords": [
+        "konferans mobilyası",
+        "toplantı salonu mobilya",
+        "konferans masası",
+        "sunum masası",
+        "kürsü",
+        "amfi oturma"
+      ]
+    },
+    {
+      "id": "KC-12",
+      "name": "Sektörel - Sağlık (İdari)",
+      "priority": 3,
+      "weight": 0.6,
+      "keywords": [
+        "hastane mobilya",
+        "hastane büro mobilya",
+        "sağlık tesisi mobilya",
+        "poliklinik mobilya",
+        "hastane idari mobilya"
+      ]
+    },
+    {
+      "id": "KC-13",
+      "name": "Sektörel - Eğitim (İdari)",
+      "priority": 3,
+      "weight": 0.6,
+      "keywords": [
+        "üniversite mobilya",
+        "kampüs mobilya",
+        "fakülte mobilya",
+        "rektörlük mobilya",
+        "dekanlık mobilya",
+        "üniversite büro mobilya"
+      ]
+    },
+    {
+      "id": "KC-14",
+      "name": "Sektörel - Otel/Konaklama",
+      "priority": 3,
+      "weight": 0.5,
+      "keywords": [
+        "otel mobilya",
+        "konaklama mobilya",
+        "otel büro mobilya",
+        "otel ofis mobilya"
+      ]
+    },
+    {
+      "id": "KC-15",
+      "name": "Hizmet Binası / Taşınma",
+      "priority": 2,
+      "weight": 0.7,
+      "keywords": [
+        "hizmet binası mobilya",
+        "idari bina mobilya",
+        "yeni bina mobilya",
+        "bina taşınma mobilya",
+        "büro donatım",
+        "ofis yenileme"
+      ]
+    }
+  ],
+  "okas_boost_codes": [
+    "39100000", "39110000", "39111000", "39112000", "39113000", "39113100",
+    "39120000", "39121000", "39121100", "39121200",
+    "39122000", "39122100", "39122200",
+    "39130000", "39131000", "39131100",
+    "39132000", "39132100",
+    "39134000", "39134100",
+    "39141000", "39141300",
+    "39150000", "39151000", "39151100",
+    "39153000", "39155000", "39155100",
+    "39156000"
+  ],
+  "hard_reject_keywords": [
+    "kent mobilyası",
+    "kent donatı",
+    "kent donatı elemanları",
+    "park mobilyası",
+    "bahçe mobilyası",
+    "piknik masası",
+    "piknik seti",
+    "kamelya",
+    "çocuk oyun grubu",
+    "çocuk oyun alanı",
+    "oyun parkı",
+    "oyun ekipmanları",
+    "çöp kovası",
+    "outdoor",
+    "dış mekan mobilya",
+    "çim biçme",
+    "peyzaj düzenleme",
+    "ferforje",
+    "bank oturma elemanı",
+    "park bankı",
+    "plastik sandalye dış mekan",
+    "fidanlık",
+    "asfalt",
+    "köprü yapımı",
+    "yol yapım",
+    "kanalizasyon",
+    "su arıtma",
+    "trafo"
+  ],
+  "soft_reject_keywords": [
+    "bilgisayar alımı",
+    "dizüstü bilgisayar",
+    "masaüstü bilgisayar",
+    "yazıcı alımı",
+    "toner alımı",
+    "sunucu alımı",
+    "network ekipman",
+    "tablet alımı",
+    "tıbbi cihaz",
+    "tıbbi sarf",
+    "laboratuvar malzeme",
+    "röntgen",
+    "ameliyathane",
+    "ilaç alımı",
+    "medikal gaz",
+    "hasta yatağı",
+    "temizlik malzemesi",
+    "dezenfektan",
+    "temizlik hizmeti",
+    "çamaşırhane",
+    "inşaat malzemesi",
+    "çimento",
+    "beton",
+    "demir donatı",
+    "boya malzeme",
+    "alçıpan",
+    "elektrik malzeme",
+    "sıhhi tesisat",
+    "hırdavat",
+    "yemek hizmeti",
+    "gıda alımı",
+    "kantin",
+    "tabldot",
+    "kırtasiye",
+    "beyaz eşya",
+    "endüstriyel mutfak",
+    "cerrahi el aletleri",
+    "bilişim malzemesi",
+    "profil demir",
+    "perde alımı",
+    "halı alımı",
+    "yatak alımı",
+    "nevresim",
+    "battaniye",
+    "okul sırası",
+    "öğrenci masası",
+    "okul mobilyası"
+  ],
+  "okas_discovery": {
+    "enabled": true,
+    "description": "OKAS kod tabanlı keşif — keyword'e takılmayan ihaleleri yakalar",
+    "core_codes": ["39121000", "39122000", "39130000", "39110000", "39153000", "39156000"],
+    "log_only_first_weeks": true,
+    "note": "İlk 2 hafta sadece loglama, sonra otomatik scoring'e dahil"
+  },
+  "region_boost": {
+    "description": "Coğrafi önceliklendirme — eleme yok, sadece sıralama boost",
+    "tiers": {
+      "marmara": { "boost": 5, "provinces": ["İSTANBUL", "BURSA", "KOCAELİ", "SAKARYA", "BALIKESİR", "TEKİRDAĞ", "EDİRNE", "KIRKLARELİ", "YALOVA", "BİLECİK", "ÇANAKKALE"] },
+      "ic_anadolu": { "boost": 3, "provinces": ["ANKARA", "KONYA", "ESKİŞEHİR", "KAYSERİ", "SİVAS", "AKSARAY", "NİĞDE", "NEVŞEHİR", "KIRŞEHİR", "KIRIKKALE", "KARAMAN", "YOZGAT", "ÇANKIRI"] },
+      "ege": { "boost": 3, "provinces": ["İZMİR", "AYDIN", "DENİZLİ", "MUĞLA", "MANİSA", "AFYON", "KÜTAHYA", "UŞAK"] },
+      "akdeniz": { "boost": 2, "provinces": ["ANTALYA", "ADANA", "MERSİN", "HATAY", "ISPARTA", "BURDUR", "KAHRAMANMARAŞ", "OSMANİYE"] },
+      "karadeniz": { "boost": 1, "provinces": ["TRABZON", "SAMSUN", "ORDU", "RİZE", "GİRESUN", "ARTVIN", "GÜMÜŞHANE", "BAYBURT", "TOKAT", "AMASYA", "ÇORUM", "SİNOP", "KASTAMONU", "BOLU", "DÜZCE", "ZONGULDAK", "BARTIN", "KARABÜK"] },
+      "diger": { "boost": 0 }
+    }
+  },
+  "search_schedule": {
+    "daily_full_scan": "08:00 UTC+3",
+    "delta_scan_interval_hours": 12,
+    "weekly_summary": "Monday 09:00 UTC+3",
+    "scan_timeout_seconds": 300,
+    "retry_on_failure": true,
+    "max_retries": 3
+  },
+  "state": {
+    "seen_tenders_path": "data/seen_tenders.json",
+    "score_history_path": "data/score_history.jsonl",
+    "daily_report_dir": "reports/daily",
+    "weekly_report_dir": "reports/weekly"
+  }
+}
